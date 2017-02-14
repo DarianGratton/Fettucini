@@ -1,0 +1,175 @@
+header {
+	width: 100%;
+	background-color: #212528;
+	top: -10px;
+	left: -10px;
+	right: 30px;
+	height: 150px;
+	margin: 0 auto 0 auto;
+	position: relative;
+	
+}
+body {
+	background-color: #37393E;
+}
+h1 {
+	color: #2FCC71;
+}
+#main {
+	width: 1165px;
+	margin-left: auto;
+	margin-right: auto;
+}
+#nav {
+	background-color: green;
+}
+#nav ul {
+	list-style: none;
+}
+#nav li {
+	display: inline;
+	padding-right: 10px;
+}		
+#nav a {
+	text-decoration: none;
+}
+#intro { 
+	text-align: center;
+	color: #CDCED0;
+}
+#gaming_platforms {
+	text-align: center;
+}
+#platforms {
+	width: 1165px;
+	margin-left: auto;
+	margin-right: auto;
+}
+#PC {
+	width: 203px;
+	height: 391px;
+	float: left;
+	box-shadow: 3px 3px 10px white;
+}
+#PS4{
+	margin-left: 30px;
+	width: 203px;
+	height: 391px;
+	float: left;
+	box-shadow: 3px 3px 10px blue;
+	}
+#XBOX{
+    margin-left: 30px;
+	width: 203px;
+	height: 391px;
+	float: left;
+	box-shadow: 3px 3px 10px green;
+	}
+#Nintendo{
+	margin-left: 30px;
+	width: 203px;
+	height: 391px;
+	float: left;
+	box-shadow: 3px 3px 10px red;
+	}
+#Mobile{
+	margin-left: 932px;
+	width: 203px;
+	height: 391px;
+	box-shadow: 3px 3px 10px yellow;
+}
+table {
+	height: 200px;
+	background-color: #607469;
+}
+#Releases{
+	float: left;
+	height: 300px;
+	width: 550px;
+	margin-top: 30px;
+}
+#Releases thead {
+	border: none;
+	font-weight: bold;
+	background-color: #22412F;
+	text-align: center;
+}
+#Releases_table2 {
+	float: left;
+	height: 300px;
+	width: 550px;
+}
+#Reviews {
+	margin-left: 585px;
+	margin-top: 30px;
+	height: 300px;
+	width: 550px;
+}
+#Reviews thead {
+	border: none;
+	font-weight: bold;
+	background-color: #22412F;
+	text-align: center;
+}
+#Reviews_table2 {
+	float: left;
+	height: 300px;
+	width: 550px;
+}
+.game {
+	text-align: center;
+	width: 75px;
+}
+.title {
+	text-align: center;
+	width: 225px;
+}
+.release_date {
+	text-align: center;
+	width: 150px
+}
+.creator {
+	text-align: center;
+	width: 75px;
+}
+.left {
+	text-align: center;
+	width: 75px;
+	padding: 2px 2px;
+}
+.center {
+	text-align: center;
+	width: 225px;
+	padding: 0 15px;
+}
+.right {
+	text-align: center;
+	width: 150px;
+}
+.right2 {
+	text-align: right;
+	width: 75px;
+}
+.scroll{
+	overflow-y: scroll;
+	height: 300px;
+}
+.table_heading {
+	font-size: 32px;
+	margin-bottom: 5px;
+	Font-weight: bold;
+	color: #2FCC71;
+}
+footer {
+	bottom: 0;
+	width: 100%;
+	height: 120px;
+	margin: 40px 0 40px 0;
+	background-color: black;
+}
+.copyright {
+	text-align: center;
+	margin: 40px 0 40px 0;
+	color: white;
+}
+	

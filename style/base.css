@@ -1,16 +1,19 @@
-#header {
-	width: 100%;
+.header {
 	background-color: #37393E;
+	margin:0px;
 	}
 #nav ul {list-style: none;
 	}
 #nav li {display: inline;
 		 padding-right: 10px;
 		 }		
-#nav a {text-decoration: none;
+#nav a {
+	text-decoration: none;
+	color:#CDCED0;
 	}
-#platform {
-	width: 700px;
+#platforms{
+	width:900px;
+	margin:auto;
 }
 #platforms h1{
 	text-align: center;
@@ -21,37 +24,79 @@
 #PC {
 	float: left;
 	width:80px;
-	border:5px solid blue;
 	}
 #PS4{
 	margin-left:100px;
 	width:80px;
 	float: left;
-	border:5px solid blue;
 	}
 #XBOX{
 	margin-left:100px;
 	width:80px;
 	float: left;
-	border:5px solid blue;
 	}
 #Nintendo{
 	margin-left:100px;
-	width:100px;
+	width:80px;
 	float: left;
-	border:5px solid blue;
 	}
 #Mobile{
-	margin-left:100px;
-	width:100px;
-	float: left;
-	border:5px solid blue;
+	margin-left:720px;
+	width:80px;
+	margin-right:0px;
 	}
 #Releases{
-	float: left;
+	
 	
 }
 #Reviews{
-	float: left;
-}
 	
+	}
+.main{
+	
+	margin-left:auto;
+	margin-right:auto;
+	width: 60%;
+	margin-top:20px;
+}
+.body{
+	background-color:#37393E;
+}
+.user{
+	float:left;
+	width:40%;
+	margin-left:auto;
+	margin-right:auto;
+}
+.username{
+	margin-top:10px;
+	margin-bottom:10px;
+	
+}
+.password{
+	margin-top:10px;
+	margin-bottom:10px;
+}
+.something{
+	width:40%;
+	margin-left: 600px;
+	
+}
+.Signbutton{
+	margin-top:20px;
+	margin-bottom:20px;
+	margin-right: 20px;
+}
+.Signbutton a{
+	text-decoration:none;
+}
+.Forgerpassword{
+	
+	margin:auto;
+}
+.main h3{
+	color:#CDCED0;
+}
+.footer{
+	color:#CDCED0;
+}

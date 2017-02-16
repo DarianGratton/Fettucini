@@ -1,8 +1,15 @@
 .header {
 	background-color: #37393E;
 	margin:0px;
+	width:400px;
 	}
 
+}
+#nav
+{	
+	margin-left:400px;
+	margin-bottom:500px;
+	width:60%
 }
 #nav ul {list-style: none;
 	}
@@ -96,7 +103,7 @@
 	
 	margin:auto;
 }
-.Forgetpassword a{
+.forgetpassword a{
 	text-decoration:none;
 }
 .mainsign h3{

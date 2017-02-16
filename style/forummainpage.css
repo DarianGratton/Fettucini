@@ -1,0 +1,183 @@
+body {
+	background-color: #37393E;
+}
+.header {
+	background-color: #37393E;
+	margin:0px;
+	width:400px;
+}
+}
+#nav
+{	
+	margin-left:400px;
+	margin-bottom:500px;
+	width:60%
+}
+#nav ul {list-style: none;
+}
+#nav li {display: inline;
+		 padding-right: 10px;
+}		
+#nav a {
+	text-decoration: none;
+	color:#CDCED0;
+}
+#main {
+	width: 860;
+	margin: 0 auto 0 auto;
+}
+#Community_forums {
+	text-align: center;
+	color: #2FCC71;
+}
+.community_forum_tables {
+	border: 1px solid black;
+	border-radius: 15px;
+	margin: 0 auto 15px auto;
+	width: 860px;
+	height: 250px;
+	padding-left: 10px;
+	background-color: white;
+}
+.forum_title {
+	width: 75%;
+	text-align: left;
+	font-size: x-large;
+	margin-bottom: 15px;
+}
+.latest_posts {
+	width: 25%;
+	font-size: x-large;
+	text-align: center;
+}
+.main_topic {
+	height: 10px;
+	font-size: 20px;
+	padding-top: 15px;
+}
+.time_of_last_post {
+	text-align: center;
+}
+.sub_topic {
+	padding-bottom: 15px;
+}
+.main_links {
+	text-decoration: none;
+	color: #22412F;
+}
+.main_links:hover {
+	color: #2FCC71;
+}
+.sub_links {
+	text-decoration: none;
+	color: #22412F;
+}
+.sub_links:hover {
+	color: #2FCC71;
+}
+#platforms{
+	width:900px;
+	margin:auto;
+}
+#platforms h1{
+	text-align: center;
+	}
+#intro{
+	text-align: center;
+}
+#PC {
+	float: left;
+	width:80px;
+	}
+#PS4{
+	margin-left:100px;
+	width:80px;
+	float: left;
+	}
+#XBOX{
+	margin-left:100px;
+	width:80px;
+	float: left;
+	}
+#Nintendo{
+	margin-left:100px;
+	width:80px;
+	float: left;
+	}
+#Mobile{
+	margin-left:720px;
+	width:80px;
+	margin-right:0px;
+	}
+#Releases{
+	
+	
+}
+#Reviews{
+	
+	}
+.mainsign{
+	margin-bottom:20px;
+	margin-left:auto;
+	margin-right:auto;
+	width: 60%;
+	margin-top:20px;
+}
+.body{
+	background-color:#37393E;
+}
+.user{
+	float:left;
+	width:40%;
+	margin-left:auto;
+	margin-right:auto;
+}
+.username{
+	margin-top:10px;
+	margin-bottom:10px;
+	
+}
+.password{
+	margin-top:10px;
+	margin-bottom:10px;
+}
+.something{
+	width:40%;
+	margin-left: 600px;
+	
+}
+.Signbutton{
+	margin-top:20px;
+	margin-bottom:20px;
+	margin-right: 20px;
+}
+.Signbutton a{
+	text-decoration:none;
+}
+.Forgetpassword{
+	
+	margin:auto;
+}
+.Forgetpassword a{
+	text-decoration:none;
+}
+.mainsign h3{
+	color:#CDCED0;
+}
+
+.footer{
+	color:#CDCED0;
+	background-color:#212528;
+	text-align:center;
+}
+
+#signupselect{
+	margin-top:20px;
+}
+.signusername{
+	width:200px;
+	height:30px;
+}
+.signbutton{
+	font-size:20px;
+}

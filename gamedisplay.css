@@ -55,31 +55,48 @@ right: -300px;
 #Reviews{
 	
 	}
+#direct li
+{
+color: #2fcc71;
+}
 .alphabet a
 {
-color: 
+font-weight: bold;
+font-size: xx-large;
+text-decoration: none;
+color: white;
+}
+.alphabet
+{
+line-height: -200px;
+padding-bottom: 50px;
+text-align: center;
 }
 .body {
 width: 100%;
 }
 	
+.gametitle{
+font-size: 3em;
+color:#2fcc71;
+position: absolute;
+top: 200px;
+}
 .gamedescrip
 {
 float:left;
 width: 50%;
-position: absolute;
-top: 300px;
-font-size: xx-large;
+
+font-size: x-large;
 color: #CDCED0;
 }
 .reviews{
 position: absolute;
-left: 0;
-bottom: -300px;
+top: 600px;
 height: 30%;
 width: 50%;
 Border: 2px solid  #212528;
-font-size: xx-large;
+font-size: x-large;
 color: #CDCED0;
 }
 .gamepic{
@@ -91,13 +108,18 @@ color: #CDCED0;
 	right: 10px;
 	
 }
+.gamepic img
+{
+height: 500px;
+width: 500px;
+}
 .screenshots {
 float: right;
 width: 40%;
 height: 50%;
-position: absolute;
-right: 10px;
-bottom: -530px;
+position: relative;
+right: 20px;
+bottom: -480px;
 display: inline-block;
 }
 img.pic1{

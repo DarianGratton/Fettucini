@@ -7,7 +7,7 @@
 <link rel="stylesheet" href = "style/base.css">
 <body class="body">
   <div class = "header">
-		<a href="#"><img src="images/logo.png" width="354" height="154"
+		<a href="index.html"><img src="images/logo.png" width="354" height="154"
             alt="TechDirect"/></a>
   </div>
   <div id = "nav">
@@ -18,29 +18,35 @@
 		<li><a href="Directory.html">Directory</a></li>
 	</ul>
   </div>
-	<main class="main">
+	<main class="mainsign">
 		<div class="user">
 			<div class="username">
 				<h3>Username:</h3>
-				<input id="signusername" type="text" name="username" placeholder="username">
+				<input class="signusername" type="text" name="username" placeholder="username">
 				</div>
 			<div class="password">
 				<h3>Password:</h3>
-				<input id="signusername" type="password" name="password" placeholder="password">
+				<input class="signusername" type="password" name="password" placeholder="password">
 				</div>
 			<div class="password">
 				<h3>Confirm Password:</h3>
-				<input id="signusername" type="password" name="password" placeholder="confirm password">
+				<input class="signusername" type="password" name="password" placeholder="confirm password">
 				</div>
 			<div>
 			<h3>Email:</h3>
-			<input id="email" type="text" name="email" placeholder="email">
+			<input id="email" type="text" name="email" placeholder="email"><br>
 				</div>
+			<div>
+			<select id="signupselect">
+			<option value="0">Select your gender</option>
+			<option value="Female">Female</option>
+			<option value="Male">Male</option>
+			</select>
 			<div class="Signbutton">
 			<button>Sign up</button>
 				</div>
-			<div class="Forgerpassword">
-			<button>Forget password?</button>
+			<div class="Forgetpassword">
+			<button><a href="Forgetpassword.html">Forget password?</a></button>
 				</div>
 		</div>
 		</div>
@@ -52,7 +58,7 @@
 	</main>
 	<footer>
 	<div class = "footer">
-	&copy; Copyright 2017
+	<p>&copy; Copyright 2017</P>
 	</div>
 	</footer>
 </body>

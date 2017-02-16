@@ -4,44 +4,8 @@
   <title>Contact Us</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="Style/contactus.css">
 </head>
-<style>
-body {background-color: gray;
-	  margin-left: 200px;
-	  margin-right: 200px;}
-.even {float: right;}
-.odd {float: left;}
-.hr {border-style: dashed;}
-h2 {text-align: center;}
-html {font-family: Trebuchet MS;}
-
-nav ul {list-style: none;
-			}
-nav li {display: inline;
-		margin: auto;
-		padding: 10px;
-	}
-nav a {
-	text-decoration: none;
-	color:#CDCED0;
-	}
-#box{
-margin-top:0px;
-margin-left:0px;
-margin-bottom:0px;
-margin-right:0px;
-}
-.box760{
-	width:800px;
-	margin-left:auto;
-	margin-right:auto;
-	display:block;
-
-#footer{
-	clear: both;
-	text-align: center;
-}
-</style>
 <body>
 <div id = "header">
 		<header>
@@ -57,41 +21,41 @@ margin-right:0px;
 			<li><a href="Directory.html">Directory</a></li>
 		</ul>
 	</nav>
- <div id="box">
-		<div class="box760">			
-	
+<div id="box">
+		<div class="innerbox">			
 		<div id="main">
 			<h2>Contact Us</h2>
 			<p>No game postings you were looking for? Whatever it is, send us your comments or suggestions as part of making TechDirect a lively and orderly hub for gamers alike!</p>
+         </div>
 
-<!-- Value is what is sent to server side-->
-<form method="typein">
-	Name/Username:<input type="text" name="name" id="email"<br>
+<form>
+	Name/Username:<input type="text" name="name" id="email">
+	<br>
 </form>
-<select>
-	<option value="0">Select concern </option>
-	<option value="1">Add Games</option>
-	<option value="2">Media Queries</option>
-	<option value="3">Business Queries</option>
-	<option value="4">L'ARTketplace</option>
-	<option value="5">Report User/s</option>
-	<option value="6">Other</option>
+Topic:<select>
+	<option value="0">Select Topic</option>
+	<option value="1">Site Issues</option>
+	<option value="2">Add Games</option>
+	<option value="3">Media Queries</option>
+	<option value="4">Business Queries</option>
+	<option value="5">L'ARTketplace</option>
+	<option value="6">Report User/s</option>
+	<option value="7">Other</option>
 </select>
 	<br>
 <textarea name="About Me" cols="70" rows="12">
 </textarea>
-
-<form action="">
-	<input type ="radio" name ="confirm" value="PressButton">Select this Button to show you're not a robot!<img src=" "><br>
-	<input type="submit" value="Save">
-	<input type="submit" value="Cancel">
+<form action="send">
+	<input type ="radio" name ="confirm" value="PressButton">Select this Button to prove that you're not a robot!<br>
+	<input type="button" value="Submit">
+	<input type="button" value="Clear">
 </form>
-
-
-
-<!-- for refers to id element. id in javascript, CSS for specific element.-->
-<!-- name is for server side to ATTACH value. "AH you selected this value!" says server-->
-
-<!--Make fieldset for contact us> 
-	
-	radio of the options. checbox in square.
+		</div>
+</div>
+<footer>
+		<div id="footer">
+			<p class="copyright">Copyright &copy; 2017</p>
+		</div>
+</footer>
+</body>
+</html>

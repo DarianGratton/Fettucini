@@ -1,26 +1,25 @@
 <!doctype html>
 <html lang="en">
 <head>
-  <title>Home</title>
+  <title>Edit Profile</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="Style/editprofile.css">
 </head>
 <style>
 body {background-color: gray;
-	  margin-left: 100px;
-	  margin-right: 200px;}
+	  width: 100%;}
 html {font-family: Trebuchet MS;}
 #info {
 	background-color: orange;
-	float: right;}
-    padding: 10px 10px 10px 10px;
-	border-style: solid black 2px;
-
+	width: 500px;
+	height: 800px;
+    padding: 0px 50px 50px 20px;
+}
 nav ul {list-style: none;
 			}
 nav li {display: inline;
 		margin: auto;
-		padding: 10px;
 	}
 nav a {
 	text-decoration: none;
@@ -58,14 +57,45 @@ nav a {
 			<li><a href="Directory.html">Directory</a></li>
 		</ul>
 	</nav>
-    <div id = "profilepic">
-					<a href="#"><img src="images/astab.png" alt="profilepic" width="300" height="300"></a>
-					</div>
-					<div id = "info">
-						
+ <div id="box">
+	<div id = "profilepic">
+		<a href="#"><img src="images/astab.png" alt="profilepic" width="300" height="300"></a>
+	</div>
+	<div id = "info">
+						<form action="action_page.php">
+						<h1>Profile Information</h1>
+						  <h3>First Name
+							  Last Name
+						  </h3>
+						  
+						  <h3>Username
+						  Codename
+						  </h3>
+						  
+						  <h3>Email
+							  Location
+								</h3>
+						  
+						  <h3>Most Valuable Games
+						  </h3>
+								
+						  <h3>Now Playing
+						  </h3>
+						  <h3>Wishlist
+						  </h3>
+								
+						  <h3>About Me
+						  </h3>
+						  <h3>Recent Activity
+						  </h3>
+						  <input type="button" value="Message">
+						  <input type="button" value="Poke">
+						  <input type="button" value="Report">
+						</form> 
 					</div>
 	
 	</div>
+</div>
 	<div id= "footer"> &copy; Copyright 2017
 	</div>
 </html>

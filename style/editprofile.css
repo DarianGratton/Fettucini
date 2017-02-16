@@ -1,0 +1,35 @@
+body {background-color: gray;
+	  margin-left: 100px;
+	  margin-right: 100px;}
+html {font-family: Trebuchet MS;}
+#info {
+	background-color: orange;
+	float: right;}
+    padding: 10px 10px 10px 10px;
+}
+nav a {
+	text-decoration: none;
+	color:#CDCED0;
+	}
+nav ul {list-style: none;
+			}
+nav li {display: inline;
+		margin: auto;
+		padding: 10px;
+	}
+#profilepic
+	{
+	background-color: orange;
+	border-style: solid;
+	border-width: 2px;
+	border-color: #2FCC71;
+	float: left;
+	margin: 5px 5px 5px 5px;
+	padding: 5px 5px 5px 5px;
+	width: 300px;
+	
+	}
+#footer{
+	clear: both;
+	text-align: center;
+}

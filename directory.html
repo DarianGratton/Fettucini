@@ -3,24 +3,114 @@
 <head>
   <title>Directory</title>
   <meta charset="utf-8">
+  <style>
+	body a:hover{
+		color:black;
+	}
+	body a{
+		text-decoration: none;
+		font-size: large;
+	}
+
+	body {
+		background-color:#37393E;
+	
+	}
+	#wrapper {
+		width:800px;
+		margin-left: auto;
+		margin-right: auto;
+		float: center;
+			}
+	#header button{
+		float:right;
+		text-align: right;
+	}
+	
+	#nav {
+		height: 50px;
+	}
+	#nav img{
+		text-align: center;
+	}
+	#nav ul {
+		list-style: none;
+		background-color: #2FCC71;
+	}
+	#nav li {
+		display: inline;
+		padding-right: 10px;
+	}
+		#footer {
+		margin-left:auto;
+		margin-right:auto;
+		text-align: center;
+		background-color:#2FCC71;	
+	}
+	
+
+
+	.alphabet {
+		text-align:center;
+		padding-bottom: 10px;
+		font-size: 50px;
+	}
+	.alphabet a:link{
+		color: white;
+	}
+	.alphabet a:hover{
+		color: black;
+	}
+	#games {
+		margin-top: 30px;
+		padding: 30px 30px 30px 30px;
+	background-color:#CDCED0;
+	}
+	#games li{
+		list-style-type: none;
+
+	}
+	#a, #c, #e, #g, #i, #k, #m, #o, #q, #s, #u, #w, #y{
+		background-color: #778899;
+		padding: 20px 20px 20px 20px;
+		font-size: 20px;
+	}
+
+	#b, #d, #f, #h, #j, #l, #n, #p, #r, #t, #v, #x, #z{
+		background-color:#9fabb7;
+		padding: 20px 20px 20px 20px;
+		font-size: 20px;
+	}
+
+
+
+
+
+</style>
 </head>
-<link rel="stylesheet" href = "style/base.css">
-<body class="body">
-  <div class = "header">
-		<a href="#"><img src="images/logo.png" width="254" height="100"
-            alt="TechDirect"/></a>
-  </div>
-  <div id = "nav">
+
+<body>
+
+<div id="wrapper">
+
+<div id="header">
+<a href="#"><img src="images/logo.png" width="354" height="154" alt="TechDirect"/></a>
+
+<a href="login.html"><button type="button">Log In</button></a>
+<a href="signup.html"><button type="button">Sign Up</button></a>
+
+</div>
+
+<div id="nav">
 	<ul>
-		<a href="reviews.html"><img src="images/navreviews.png" 
-			onmouseover="this.src='Images/navreviewshover.png'"
-			onmouseout="this.src='images/navreviews.png'" /></A>
-		<img class = "navreleases" src = "Images/navreleases.png" alt="game pic"> 
-		<img class = "navcommunity" src = "Images/navcommunity.png" alt="game pic"> 
-		<img class = "navdirectory" src = "Images/navdirectory.png" alt="game pic"> 
+		<li><a href="Reviews.html">Reviews</a></li>
+		<li><a href="LatestReleases.html">Latest Releases</a></li>
+		<li><a href="Community.html">Community</a></li>
+		<li><a href="Directory.html">Directory</a></li>
 	</ul>
-  </div>
-  <div class ="alphabet">
+</div>
+
+<div class ="alphabet">
 	<a href="directory.html#a">A</a>
 	<a href="directory.html#b">B</a>
 	<a href="directory.html#c">C</a>
@@ -47,164 +137,204 @@
 	<a href="directory.html#x">X</a>
 	<a href="directory.html#y">Y</a>
 	<a href="directory.html#z">Z</a>
-	
-	</div>
-	
+</div>
+
+<hr>
+<div id="games">
+
 <div id="a">
-A <Br>
-	<ul style="list-style-type:none">
+A
+	<ul>
 	<li><a href="gamedisplay.html">a game</a></li>
 	<li><a href="gamedisplay.html">another game</a></li>
+	</ul>
 </div>
+
 <div id="b">
 B <Br>
-	<ul style="list-style-type:none">
+	<ul>
 	<li><a href="gamedisplay.html">a game</a></li>
 	<li><a href="gamedisplay.html">another game</a></li>
+	</ul>
 </div>
 <div id="c">
 C <Br>
-	<ul style="list-style-type:none">
+	<ul>
 	<li><a href="gamedisplay.html">a game</a></li>
 	<li><a href="gamedisplay.html">another game</a></li>
+	</ul>
 </div>
 <div id="d">
 D <Br>
-	<ul style="list-style-type:none">
+	<ul>
 	<li><a href="gamedisplay.html">a game</a></li>
 	<li><a href="gamedisplay.html">another game</a></li>
+	</ul>
 </div>
 <div id="e">
 E <Br>
-	<ul style="list-style-type:none">
+	<ul>
 	<li><a href="gamedisplay.html">a game</a></li>
 	<li><a href="gamedisplay.html">another game</a></li>
+	</ul>
 </div>
 <div id="f">
 F <Br>
-	<ul style="list-style-type:none">
+	<ul>
 	<li><a href="gamedisplay.html">a game</a></li>
 	<li><a href="gamedisplay.html">another game</a></li>
+	</ul>
 </div>
 <div id="g">
 G <Br>
-	<ul style="list-style-type:none">
+	<ul>
 	<li><a href="gamedisplay.html">a game</a></li>
 	<li><a href="gamedisplay.html">another game</a></li>
+	</ul>
 </div>
 <div id="h">
 H <Br>
-	<ul style="list-style-type:none">
+	<ul>
 	<li><a href="gamedisplay.html">a game</a></li>
 	<li><a href="gamedisplay.html">another game</a></li>
+	</ul>
 </div>
 <div id="i">
 I <Br>
-	<ul style="list-style-type:none">
+	<ul>
 	<li><a href="gamedisplay.html">a game</a></li>
 	<li><a href="gamedisplay.html">another game</a></li>
+	</ul>
 </div>
 <div id="j">
 J <Br>
-	<ul style="list-style-type:none">
+	<ul>
 	<li><a href="gamedisplay.html">a game</a></li>
 	<li><a href="gamedisplay.html">another game</a></li>
+	</ul>
 </div>
 <div id="k">
 K <Br>
-	<ul style="list-style-type:none">
+	<ul>
 	<li><a href="gamedisplay.html">a game</a></li>
 	<li><a href="gamedisplay.html">another game</a></li>
+	</ul>
 </div>
 <div id="l">
 L <Br>
-	<ul style="list-style-type:none">
+	<ul>
 	<li><a href="gamedisplay.html">a game</a></li>
 	<li><a href="gamedisplay.html">another game</a></li>
+	</ul>
 </div>
 <div id="m">
 M <Br>
-	<ul style="list-style-type:none">
+	<ul>
 	<li><a href="gamedisplay.html">a game</a></li>
 	<li><a href="gamedisplay.html">another game</a></li>
+	</ul>
 </div>
 <div id="n">
 N <Br>
-	<ul style="list-style-type:none">
+	<ul>
 	<li><a href="gamedisplay.html">a game</a></li>
 	<li><a href="gamedisplay.html">another game</a></li>
+	</ul>
 </div>
 <div id="o">
 O <Br>
-	<ul style="list-style-type:none">
+	<ul>
 	<li><a href="gamedisplay.html">a game</a></li>
 	<li><a href="gamedisplay.html">another game</a></li>
+	</ul>
 </div>
 <div id="p">
 P <Br>
-	<ul style="list-style-type:none">
+	<ul>
 	<li><a href="gamedisplay.html">a game</a></li>
 	<li><a href="gamedisplay.html">another game</a></li>
+	</ul>
 </div>
 <div id="q">
 Q <Br>
-	<ul style="list-style-type:none">
+	<ul>
 	<li><a href="gamedisplay.html">a game</a></li>
 	<li><a href="gamedisplay.html">another game</a></li>
+	</ul>
 </div>
 <div id="r">
 R <Br>
-	<ul style="list-style-type:none">
+	<ul>
 	<li><a href="gamedisplay.html">a game</a></li>
 	<li><a href="gamedisplay.html">another game</a></li>
+	</ul>
 </div>
 <div id="s">
 S <Br>
-	<ul style="list-style-type:none">
+	<ul>
 	<li><a href="gamedisplay.html">a game</a></li>
 	<li><a href="gamedisplay.html">another game</a></li>
+	</ul>
 </div>
 <div id="t">
 T <Br>
-	<ul style="list-style-type:none">
+	<ul>
 	<li><a href="gamedisplay.html">a game</a></li>
 	<li><a href="gamedisplay.html">another game</a></li>
+	</ul>
 </div>
 <div id="u">
 U <Br>
-	<ul style="list-style-type:none">
+	<ul>
 	<li><a href="gamedisplay.html">a game</a></li>
 	<li><a href="gamedisplay.html">another game</a></li>
+	</ul>
 </div>
 <div id="v">
 V <Br>
-	<ul style="list-style-type:none">
+	<ul>
 	<li><a href="gamedisplay.html">a game</a></li>
 	<li><a href="gamedisplay.html">another game</a></li>
+	</ul>
 </div>
 <div id="w">
 W <Br>
-	<ul style="list-style-type:none">
+	<ul>
 	<li><a href="gamedisplay.html">a game</a></li>
 	<li><a href="gamedisplay.html">another game</a></li>
+	</ul>
 </div>
 <div id="x">
 X <Br>
-	<ul style="list-style-type:none">
+	<ul>
 	<li><a href="gamedisplay.html">a game</a></li>
 	<li><a href="gamedisplay.html">another game</a></li>
+	</ul>
 </div>
 <div id="y">
 	Y <Br>
-	<ul style="list-style-type:none">
+	<ul>
 	<li><a href="gamedisplay.html">a game</a></li>
 	<li><a href="gamedisplay.html">another game</a></li>
+	</ul>
 </div>
 <div id="z">
-	Y <Br>
-	<ul style="list-style-type:none">
+	Z <Br>
+	<ul>
 	<li><a href="gamedisplay.html">a game</a></li>
 	<li><a href="gamedisplay.html">another game</a></li>
+	</ul>
 </div>
 
-  </body>
+
+</div>
+
+<div id="footer">
+<a href="about.html">About Us</a> | 
+<a href="contact.html">Contact Us</a> |
+<a href="site.html">Site Map</a> 
+<p>&copy; TechDirect 2017</p>
+</div>
+
+ </body>
+ </html>

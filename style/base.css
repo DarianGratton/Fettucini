@@ -42,9 +42,10 @@ body {
 	position:relative;
 	
 }
---------------------------------------------------------------------------------------------------------------
-
-
+-------------------------------------------------------------------------------------------------------------
+For individual pages 
+name+title of the page
+-------------------------------------------------------------------------------------------------------------
 
 
 #sysxbox table{
@@ -145,6 +146,60 @@ body {
 .signupselect{
 	margin-top:20px;
 }
-
-
+------------------------------------
+Main forums pages
+------------------------------------
+#mainmfp {
+	width: 860;
+	margin: 0 auto 0 auto;
+}
+#Community_forums {
+	text-align: center;
+	color: #2FCC71;
+}
+.community_forum_tables {
+	border: 1px solid black;
+	border-radius: 15px;
+	margin: 0 auto 15px auto;
+	width: 860px;
+	height: 250px;
+	padding-left: 10px;
+	background-color: white;
+}
+.forum_title {
+	width: 75%;
+	text-align: left;
+	font-size: x-large;
+	margin-bottom: 15px;
+}
+.latest_posts {
+	width: 25%;
+	font-size: x-large;
+	text-align: center;
+}
+.main_topic {
+	height: 10px;
+	font-size: 20px;
+	padding-top: 15px;
+}
+.time_of_last_post {
+	text-align: center;
+}
+.sub_topic {
+	padding-bottom: 15px;
+}
+.main_links {
+	text-decoration: none;
+	color: #22412F;
+}
+.main_links:hover {
+	color: #2FCC71;
+}
+.sub_links {
+	text-decoration: none;
+	color: #22412F;
+}
+.sub_links:hover {
+	color: #2FCC71;
+}
 	

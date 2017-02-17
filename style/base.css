@@ -46,7 +46,7 @@ body {
 }
 /*-------------------------------------------------------------------------------------------------------------
 For individual pages 
-name+title of the page
+name + title of the page
 --------------------------------------------------------------------------------------------------------------*/
 
 
@@ -135,7 +135,7 @@ sign in up, change password, forget password
 	margin-bottom:10px;
 	
 }
-.passwordsign{
+.passwordsign{	
 	margin-top:10px;
 	margin-bottom:10px;
 }
@@ -217,4 +217,35 @@ Main forums pages
 .sub_links:hover {
 	color: #2FCC71;
 }
-	
+
+/********about us*********/
+#boxaboutus{
+margin-top:0px;
+margin-left:0px;
+margin-bottom:0px;
+margin-right:0px;
+}
+.boxaboutus{
+	width:800px;
+	margin-left:auto;
+	margin-right:auto;
+	display:block;
+}
+.even {
+	float: right;
+}
+.odd {
+	float: left;
+	margin-left:20px;
+	margin-right:20px;
+	}
+.hr {
+	border-style: dashed;
+}
+#mainaboutus h2 h3 {
+	text-align: center;
+	color:#CDCED0;
+}
+#mainaboutus p {
+	color:#CDCED0;
+}

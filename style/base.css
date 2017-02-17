@@ -320,3 +320,89 @@ margin-right:0px;
 
 /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
 .show {display:block;}
+
+/*----------------------------------------
+Directory css
+-----------------------------------------*/
+
+.alphabet {
+		text-align:center;
+		padding-bottom: 10px;
+		font-size: 50px;
+	}
+	.alphabet a:link{
+		color: white;
+	}
+	.alphabet a:hover{
+		color: black;
+	}
+	#games {
+		margin-top: 30px;
+		padding: 30px 30px 30px 30px;
+	background-color:#CDCED0;
+	}
+	#games li{
+		list-style-type: none;
+
+	}
+	#a, #c, #e, #g, #i, #k, #m, #o, #q, #s, #u, #w, #y{
+		background-color: #778899;
+		padding: 20px 20px 20px 20px;
+		font-size: 20px;
+	}
+
+	#b, #d, #f, #h, #j, #l, #n, #p, #r, #t, #v, #x, #z{
+		background-color:#9fabb7;
+		padding: 20px 20px 20px 20px;
+		font-size: 20px;
+	}
+	
+/*----------------------------------------
+gamepage css
+-----------------------------------------*/
+
+	.gamedescrip{
+		background-color: #CDCED0;
+		width: 50%;
+		float:right;
+		clear:both;
+		padding:20px 20px 20px 20px;
+	}
+
+	#maingame img{
+		height: 480px;
+		width: 100%
+	}
+
+	.screenshots {
+		width: 85%;
+		float: center;
+		margin-left:auto;
+		margin-right:auto;
+		height: 300px;
+		padding:20px 20px 20px 20px;
+	}
+
+	.screenshots img{
+		height: 200px;
+		width: 200px;
+	}
+
+	#sysgame table{
+	border:1px solid #5294F5;
+	border-collapse: collapse;
+	text-align: center;
+	width:100%;
+}
+#sysgame {
+	background-color: #CDCED0;
+	width: 30%;
+	float: right;
+	height: 300px;
+	padding:20px 20px 20px 20px;
+}
+#main {
+	height: 1250px;
+	background-color: #9FABB;
+	padding: 20px 20px;
+}

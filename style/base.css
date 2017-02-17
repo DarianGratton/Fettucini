@@ -11,9 +11,14 @@ body h1{
 	font-family: Part two;
 	src: url (fonts/Part_Two.ttf);
 }
-h3 {
+body h2 {
 	font-family: Part two;
 	src: url (fonts/Part_Two.ttf);
+	color: #2FCC71;	
+}
+h3 {
+	font-family: Part two;
+	src: url (fonts/Part_Two.ttf);	
 }
 body {
 	background-color:#37393E;
@@ -58,7 +63,10 @@ body p{
 	text-align: center;
 	background-color:#2FCC71;
 	position:relative;
-	
+}
+#footer a{
+	font-family: Chosence;
+	src: url (fonts/Chosence_Regular_Italic.otf)
 }
 /*-------------------------------------------------------------------------------------------------------------
 For individual pages 

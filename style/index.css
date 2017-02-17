@@ -1,42 +1,92 @@
+/*----------------------
+header css
+----------------------*/
+
 header {
 	width: 100%;
 	background-color: #212528;
 	top: -10px;
 	left: -10px;
 	right: 30px;
+	width: 1165;
 	height: 150px;
 	margin: 0 auto 0 auto;
 	position: relative;
 	
 }
+#header button{
+	float:right;
+	text-align: right;
+}
+/*----------------------
+body and fonts css
+----------------------*/
 body {
 	background-color: #37393E;
 }
 h1 {
-	color: #2FCC71;
+	color: #2FCC71;	
+	font-family: Part two;
+	src: url (fonts/Part_Two.ttf);
 }
+body p{
+	font-family: square block;
+	src: url (square_block.ttf);
+	font-size: 14px;
+}
+body a:hover{
+	color:black;
+}
+body a{
+	text-decoration: none;
+	font-size: large;
+}
+
+/*----------------------
+the entire page css
+----------------------*/
+
 #main {
 	width: 1165px;
 	margin-left: auto;
 	margin-right: auto;
 }
+
+/*----------------------
+Style for nav
+----------------------*/
+
 #nav {
-	background-color: green;
+	background-color: #2FCC71;
 }
 #nav ul {
 	list-style: none;
+	font-family: Chosence;
+	src: url (fonts/Chosence_Regular_Italic.otf)
 }
 #nav li {
 	display: inline;
 	padding-right: 10px;
+	font-family: Chosence;
+	src: url (fonts/Chosence_Regular_Italic.otf)
 }		
 #nav a {
 	text-decoration: none;
 }
+
+/*----------------------
+introduction
+----------------------*/
+
 #intro { 
 	text-align: center;
 	color: #CDCED0;
 }
+
+/*----------------------
+Gaming platform and the img
+----------------------*/
+
 #gaming_platforms {
 	text-align: center;
 }
@@ -78,6 +128,11 @@ h1 {
 	height: 391px;
 	box-shadow: 3px 3px 10px yellow;
 }
+
+/*--------------------------------
+Latest releases and reviews table 
+----------------------------------*/
+
 table {
 	height: 200px;
 	background-color: #607469;
@@ -98,6 +153,8 @@ table {
 	float: left;
 	height: 300px;
 	width: 550px;
+	font-family: square block;
+	src: url (square_block.ttf);
 }
 #Reviews {
 	margin-left: 585px;
@@ -115,22 +172,32 @@ table {
 	float: left;
 	height: 300px;
 	width: 550px;
+	font-family: square block;
+	src: url (square_block.ttf);
 }
 .game {
 	text-align: center;
 	width: 75px;
+	font-family: Part two;
+	src: url (fonts/Part_Two.ttf);
 }
 .title {
 	text-align: center;
 	width: 225px;
+	font-family: Part two;
+	src: url (fonts/Part_Two.ttf);
 }
 .release_date {
 	text-align: center;
-	width: 150px
+	width: 150px;
+	font-family: Part two;
+	src: url (fonts/Part_Two.ttf);
 }
 .creator {
 	text-align: center;
 	width: 75px;
+	font-family: Part two;
+	src: url (fonts/Part_Two.ttf);
 }
 .left {
 	text-align: center;
@@ -159,17 +226,24 @@ table {
 	margin-bottom: 5px;
 	Font-weight: bold;
 	color: #2FCC71;
+	font-family: Part two;
+	src: url (fonts/Part_Two.ttf);
 }
-footer {
-	bottom: 0;
-	width: 100%;
-	height: 120px;
-	margin: 40px 0 40px 0;
-	background-color: black;
-}
-.copyright {
+
+/*----------------------
+Footer css
+----------------------*/
+
+#footer {
+	margin-left:auto;
+	margin-right:auto;
 	text-align: center;
-	margin: 40px 0 40px 0;
-	color: white;
+	background-color:#2FCC71;
+	position:relative;
+	margin-top: 30px;
+}
+#footer a{
+	font-family: Chosence;
+	src: url (fonts/Chosence_Regular_Italic.otf)
 }
 	

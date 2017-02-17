@@ -5,9 +5,21 @@ body a{
 	text-decoration: none;
 	font-size: large;
 }
-
+body h1{
+	font-family: Part two;
+	src: url (fonts/Part_Two.ttf);
+}
+h3 {
+	font-family: Part two;
+	src: url (fonts/Part_Two.ttf);
+}
 body {
 	background-color:#37393E;
+}
+body p{
+	font-family: square block;
+	src: url (square_block.ttf);
+	font-size: 14px;
 }
 #wrapper {
 	width:800px;
@@ -29,10 +41,14 @@ body {
 #nav ul {
 	list-style: none;
 	background-color: #2FCC71;
+	font-family: Chosence;
+	src: url (fonts/Chosence_Regular_Italic.otf)
 }
 #nav li {
 	display: inline;
 	padding-right: 10px;
+	font-family: Chosence;
+	src: url (fonts/Chosence_Regular_Italic.otf)
 }
 #footer {
 	margin-left:auto;
@@ -48,7 +64,7 @@ body {
 
 
 #sysxbox table{
-	border:1px solid #5294F5;
+	border:2px solid #5294F5;
 	border-collapse: collapse;
 	text-align: center;
 	width:100%;
@@ -60,7 +76,6 @@ body {
 	height: 300px;
 	padding:20px 20px 20px 20px;
 }
-
 #mainxbox {
 	background-color: #CDCED0;
 	width: 50%;
@@ -68,7 +83,6 @@ body {
 	height: 300px;
 	padding:20px 20px 20px 20px;
 }
-
 .titlexbox{
 	padding-top: 5px;
 	clear:both;

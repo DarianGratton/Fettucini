@@ -1,92 +1,85 @@
 <!doctype html>
 <html lang="en">
 <head>
-  <title>Edit Profile</title>
+  <title>Profile</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="Style/editprofile.css">
+  <link rel="stylesheet" href="Style/base.css">
 </head>
-<style>
-body {background-color: gray;
-	  width: 100%;}
-html {font-family: Trebuchet MS;}
-#info {
-	background-color: orange;
-	width: 500px;
-	height: 800px;
-    padding: 0px 50px 50px 20px;
-}
-nav ul {list-style: none;
-			}
-nav li {display: inline;
-		margin: auto;
-	}
-nav a {
-	text-decoration: none;
-	color:#CDCED0;
-	}
-#profilepic
-	{
-	background-color: orange;
-	border-style: solid;
-	border-width: 2px;
-	border-color: #2FCC71;
-	float: left;
-	margin: 5px 5px 5px 5px;
-	padding: 5px 5px 5px 5px;
-	width: 300px;
-	
-	}
-#footer{
-	clear: both;
-	text-align: center;
-}
-</style>
 <body>
+<div id="wrapper">
 	<div id = "header">
-		<header>
-			<a href="#"><img src="images/logo.png" width="300" height="80"
-						alt="TechDirect"/></a></div>
-		</header>
-	</div>
-	<nav>
+			<a href="#"><img src="images/logo.png" width="200" height="80"
+			alt="TechDirect"/></a></div>
+	<div id="nav">
 		<ul>
 			<li><a href="Reviews.html">Reviews</a></li>
 			<li><a href="LatestReleases.html">Latest Releases</a></li>
 			<li><a href="Community.html">Community</a></li>
 			<li><a href="Directory.html">Directory</a></li>
-		</ul>
-	</nav>
- <div id="box">
-	<div id = "profilepic">
-		<a href="#"><img src="images/astab.png" alt="profilepic" width="300" height="300"></a>
+			</ul>
 	</div>
+	<div id = "profilepic">
+		<a href="#"><img src="images/astab.png" alt="profilepic" width="200" height="200"></a>
+	</div>
+	
 	<div id = "info">
 						<form action="action_page.php">
 						<h1>Profile Information</h1>
-						  <h3>First Name
-							  Last Name
+						  <h3>First Name............
+							  Last Name............
 						  </h3>
 						  
-						  <h3>Username
-						  Codename
+						  <h3>Username............
+						  Codename............
 						  </h3>
 						  
-						  <h3>Email
-							  Location
+						  <h3>Email..................
+							  Location............
 								</h3>
 						  
-						  <h3>Most Valuable Games
+						  <h3>Hall of Games
+						  <div class="self">
+						  Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+						  Mauris fermentum efficitur dignissim. Integer posuere nibh in maximus pharetra.
+						  Vestibulum egestas convallis ligula, in sollicitudin lacus convallis at. 
+						  Morbi volutpat placerat ipsum, quis faucibus eros ullamcorper quis. 
+						  Curabitur non consequat ligula, eu ornare elit. 
+						  Etiam bibendum erat ex. Ut malesuada elit at rhoncus auctor. 
+						  </div>
 						  </h3>
 								
 						  <h3>Now Playing
+						  <div class="self">
+						  Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+						  Mauris fermentum efficitur dignissim. Integer posuere nibh in maximus pharetra.
+						  Vestibulum egestas convallis ligula, in sollicitudin lacus convallis at. 
+						  Morbi volutpat placerat ipsum, quis faucibus eros ullamcorper quis. 
+						  Curabitur non consequat ligula, eu ornare elit. 
+						  Etiam bibendum erat ex. Ut malesuada elit at rhoncus auctor. 
+						  </div>
 						  </h3>
 						  <h3>Wishlist
+						  <div class="self">
+						  Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+						  Mauris fermentum efficitur dignissim. Integer posuere nibh in maximus pharetra.
+						  Vestibulum egestas convallis ligula, in sollicitudin lacus convallis at. 
+						  Morbi volutpat placerat ipsum, quis faucibus eros ullamcorper quis. 
+						  Curabitur non consequat ligula, eu ornare elit. 
+						  Etiam bibendum erat ex. Ut malesuada elit at rhoncus auctor. 
+						  </div>
 						  </h3>
 								
 						  <h3>About Me
-						  </h3>
-						  <h3>Recent Activity
+						  <div class="self">
+						  Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+						  Mauris fermentum efficitur dignissim. Integer posuere nibh in maximus pharetra.
+						  Vestibulum egestas convallis ligula, in sollicitudin lacus convallis at. 
+						  Morbi volutpat placerat ipsum, quis faucibus eros ullamcorper quis. 
+						  Curabitur non consequat ligula, eu ornare elit. 
+						  Etiam bibendum erat ex. Ut malesuada elit at rhoncus auctor. 
+						  </div>
+						  </p>
 						  </h3>
 						  <input type="button" value="Message">
 						  <input type="button" value="Poke">
@@ -99,5 +92,3 @@ nav a {
 	<div id= "footer"> &copy; Copyright 2017
 	</div>
 </html>
-<!--NOTES: 1. Page responsive, but information goes way further left before nav list adjusts. Can't adjust nav bar for some reason.-->
-<!--2. Fixing with div containers cancels out responsive design.-->

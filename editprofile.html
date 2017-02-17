@@ -3,79 +3,70 @@
 <head>
   <title>Edit Profile</title>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="Style/base.css">
 </head>
+
 <body>
-	<div id="wrapper">
-
-<div id="header">
-<a href="#"><img src="images/logo.png" width="254" height="100" alt="TechDirect"/></a>
-
-<a href="login.html"><button type="button">Log In</button></a>
-<a href="signup.html"><button type="button">Sign Up</button></a>
-</div>
-
-<div id="nav">
-	<ul>
-		<li><a href="Reviews.html">Reviews</a></li>
-		<li><a href="LatestReleases.html">Latest Releases</a></li>
-		<li><a href="Community.html">Community</a></li>
-		<li><a href="Directory.html">Directory</a></li>
-	</ul>
-</div>
-    <!--div class = "picprofile"-->
-	<div id = "profilepic">
-					<a href="#"><img src="images/astab.png" alt="profilepic" width="300" height="300"></a>
-					</div>
-					<div id = "info">
-						<form action="action_page.php">
-						<h1>Profile Information</h1>
-						  <h3>First Name<input type="text" name="firstname" value="First">
-							  Last Name<input type="text" name="lastname" value="Last">
-						  </h3>
-						  
-						  <h3>Username<input type="text" name="username" value="UserID">
-						  Codename<input type="text" name="codename" value="CodeName">
-								</h3>
-						  
-						  <h3>Email<input type="text" name="email" value="E-mail">
-							  Location<input type="text" name="location" value="Location">
-								</h3>
-						  
-						  <h3>Most Valuable Games
-								<textarea type="text" name="MVG" cols="45" rows="1">
-								Type here!
-								</textarea>
-								</h3>
-								
-						  <h3>Now Playing
-								<textarea type="text" name="nowplaying" cols="56" rows="1">
-								Type here!
-								</textarea>
-								</h3>
-						  <h3>Wishlist
-								<textarea type="text" name"wishlist" cols="62" rows="1">
-								Type here!
-								</textarea>
-								</h3>
-								
-						  <br>
-							<textarea name="About Me" cols="70" rows="12">
-							Type and describe yourself here!
-							</textarea>
-						  <br>
-						  <input type="submit" value="Save">
-						  <input type="submit" value="Cancel">
-						</form> 
-					</div>
-	
-	<div id="footer">
-	<a href="about.html">About Us</a> | 
-	<a href="contact.html">Contact Us</a> |
-	<a href="site.html">Site Map</a> 
-	<p>&copy; TechDirect 2017</p>
+<div id="wrapper">
+	<div id = "header">
+			<a href="#"><img src="images/logo.png" width="200" height="80"
+			alt="TechDirect"/></a></div>
+	<div id="nav">
+		<ul>
+			<li><a href="Reviews.html">Reviews</a></li>
+			<li><a href="LatestReleases.html">Latest Releases</a></li>
+			<li><a href="Community.html">Community</a></li>
+			<li><a href="Directory.html">Directory</a></li>
+			</ul>
 	</div>
+	<div id = "profilepic">
+		<a href="#"><img src="images/astab.png" alt="profilepic" width="200" height="200"></a>
+</div>
+	<div id = "info">
+		<div>
+			<form action="action_page.php">
+					<h1>Profile Information</h1>
+					  <h4>Name<input type="text" name="firstname" value="First" size="15">
+						      <input type="text" name="lastname" value="Last" size="15">
+					  </h4>
+					  
+					  <h4>Username<input type="text" name="username" value="UserID" size="15">
+					  Codename<input type="text" name="codename" value="CodeName" size="5">
+					  </h4>
+					  
+					  <h4>Email<input type="text" name="email" value="E-mail" size="15">
+						  Location<input type="text" name="location" value="Location" size="15">
+					  </h4>
+					  
+					  <h4>Most Valuable Games
+							<textarea type="text" name="MVG" cols="52" rows="1">
+
+							</textarea>
+					  </h4>
+							
+					  <h4>Now Playing
+							<textarea type="text" name="MVG" cols="52" rows="1">
+
+							</textarea>
+					  </h4>
+					  <h4>Wishlist
+							<textarea type="text" name="wishlist" cols="50" rows="1">
+							Type here!
+							</textarea>
+					  </h4>	
+					  <h3>About me</h3>
+						<textarea name="About Me" cols="51" rows="12">
+						Type and describe yourself here!
+						</textarea>
+					  <br>
+					  <input type="submit" value="Save">
+					  <input type="submit" value="Cancel">
+					  <input type="submit" value="Reset">
+					</form>
+		</div>
+	</div>
+	<div id= "footer"> &copy; Copyright 2017
+	</div>
+</div>
+</body>
 </html>
-<!--NOTES: 1. Page responsive, but information goes way further left before nav list adjusts. Can't adjust nav bar for some reason.-->
-<!--2. Fixing with div containers cancels out responsive design.-->

@@ -4,35 +4,39 @@
   <title>Contact Us</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="Style/contactus.css">
+  <link rel="stylesheet" href="style/base.css">
 </head>
 <body>
-<div id = "header">
-		<header>
-			<a href="#"><img src="images/logo.png" width="300" height="80"
-						alt="TechDirect"/></a>
-		</header>
+	<div id="wrapper">
+
+	<div id="header">
+	<a href="#"><img src="images/logo.png" width="354" height="154" alt="TechDirect"/></a>
+
+	<a href="login.html"><button type="button">Log In</button></a>
+	<a href="signup.html"><button type="button">Sign Up</button></a>
 	</div>
-	<nav>
+
+	<div id="nav">
 		<ul>
-			<li><a href="Reviews.html">Reviews</a></li>
-			<li><a href="LatestReleases.html">Latest Releases</a></li>
-			<li><a href="Community.html">Community</a></li>
-			<li><a href="Directory.html">Directory</a></li>
-		</ul>
-	</nav>
-<div id="box">
+		<li><a href="Reviews.html">Reviews</a></li>
+		<li><a href="LatestReleases.html">Latest Releases</a></li>
+		<li><a href="Community.html">Community</a></li>
+		<li><a href="Directory.html">Directory</a></li>
+	</ul>
+	</div>
+	<div id="boxcontact">
 		<div class="innerbox">			
-		<div id="main">
+		<div id="maincontact">
 			<h2>Contact Us</h2>
 			<p>No game postings you were looking for? Whatever it is, send us your comments or suggestions as part of making TechDirect a lively and orderly hub for gamers alike!</p>
          </div>
 
-<form>
-	Name/Username:<input type="text" name="name" id="email">
-	<br>
-</form>
-Topic:<select>
+	<form>
+		<h3>Name/Username:</h3>
+		<input type="text" name="name" id="email">
+		<br>
+	</form>
+	<h3>Topic:</h3><select>
 	<option value="0">Select Topic</option>
 	<option value="1">Site Issues</option>
 	<option value="2">Add Games</option>
@@ -52,10 +56,11 @@ Topic:<select>
 </form>
 		</div>
 </div>
-<footer>
-		<div id="footer">
-			<p class="copyright">Copyright &copy; 2017</p>
-		</div>
-</footer>
+<div id="footer">
+<a href="about.html">About Us</a> | 
+<a href="contact.html">Contact Us</a> |
+<a href="site.html">Site Map</a> 
+<p>&copy; TechDirect 2017</p>
+</div>
 </body>
 </html>

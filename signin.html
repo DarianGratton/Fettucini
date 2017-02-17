@@ -5,34 +5,38 @@
   <meta charset="utf-8">
 </head>
 <link rel="stylesheet" href = "style/base.css">
-<body class="body">
-  <div class = "header">
-		<a href="index.html"><img src="images/logo.png" width="354" height="154"
-            alt="TechDirect"/></a>
-  </div>
-  <div id = "nav">
-	<ul>
+<body>
+  <div id="wrapper">
+
+	<div id="header">
+	<a href="#"><img src="images/logo.png" width="354" height="154" alt="TechDirect"/></a>
+
+	<a href="login.html"><button type="button">Log In</button></a>
+	<a href="signup.html"><button type="button">Sign Up</button></a>
+	</div>
+
+	<div id="nav">
+		<ul>
 		<li><a href="Reviews.html">Reviews</a></li>
 		<li><a href="LatestReleases.html">Latest Releases</a></li>
 		<li><a href="Community.html">Community</a></li>
 		<li><a href="Directory.html">Directory</a></li>
-	</ul>
-  </div>
-  
-	<main class="mainsign">
-		<div class="user">
-			<div class="username">
+		</ul>
+	</div>
+	<div class="mainsign">
+		<div class="usersign">
+			<div class="usernamesign">
 				<h3>Username:</h3>
 				<input class="signusername" type="text" name="username" placeholder="username">
 			</div>
-			<div class="password">
+			<div class="passwordsign">
 				<h3>Password:</h3>
 				<input class="signusername" type="password" name="password" placeholder="password">
 			</div>
-			<div class="Signbutton">
+			<div class="signbutton">
 			<button>Sign in</button>
 			</div>
-			<div class="Signbutton">
+			<div class="signbutton">
 			<button><a href="Signup.html">Sign up<a></button>
 			</div>
 			<div class="forgetpassword">
@@ -44,13 +48,16 @@
 		<div><img src="images/1.jpg">
 			</div>
 		</div>
-		
-	</main>
-	</div>
-	<footer>
-	<div class = "footer">
-	&copy; Copyright 2017
-	</div>
+	</div>	
+
+	
+	
+	<footer id="footer">
+	<a href="about.html">About Us</a> | 
+	<a href="contact.html">Contact Us</a> |
+	<a href="site.html">Site Map</a> 
+	<p>&copy; TechDirect 2017</p>
 	</footer>
+</div>
 </body>
 </html>

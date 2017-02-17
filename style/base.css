@@ -1,128 +1,150 @@
-.header {
-	background-color: #37393E;
-	margin:0px;
-	width:400px;
-	}
-
+body a:hover{
+	color:black;
 }
-#nav
-{	
-	margin-left:400px;
-	margin-bottom:500px;
-	width:60%
-}
-#nav ul {list-style: none;
-	}
-#nav li {display: inline;
-		 padding-right: 10px;
-		 }		
-#nav a {
+body a{
 	text-decoration: none;
-	color:#CDCED0;
-	}
-#platforms{
-	width:900px;
-	margin:auto;
+	font-size: large;
 }
-#platforms h1{
-	text-align: center;
-	}
-#intro{
-	text-align: center;
-}
-#PC {
-	float: left;
-	width:80px;
-	}
-#PS4{
-	margin-left:100px;
-	width:80px;
-	float: left;
-	}
-#XBOX{
-	margin-left:100px;
-	width:80px;
-	float: left;
-	}
-#Nintendo{
-	margin-left:100px;
-	width:80px;
-	float: left;
-	}
-#Mobile{
-	margin-left:720px;
-	width:80px;
-	margin-right:0px;
-	}
-#Releases{
-	
-	
-}
-#Reviews{
-	
-	}
-.mainsign{
-	margin-bottom:20px;
-	margin-left:auto;
-	margin-right:auto;
-	width: 60%;
-	margin-top:20px;
-}
-.body{
+
+body {
 	background-color:#37393E;
 }
-.user{
+#wrapper {
+	width:800px;
+	margin-left: auto;
+	margin-right: auto;
+	float: center;
+}
+#header button{
+	float:right;
+	text-align: right;
+}
+	
+#nav {
+	height: 50px;
+}
+#nav img{
+	text-align: center;
+}
+#nav ul {
+	list-style: none;
+	background-color: #2FCC71;
+}
+#nav li {
+	display: inline;
+	padding-right: 10px;
+}
+#footer {
+	margin-left:auto;
+	margin-right:auto;
+	text-align: center;
+	background-color:#2FCC71;
+	position:relative;
+	
+}
+--------------------------------------------------------------------------------------------------------------
+
+
+
+
+#sysxbox table{
+	border:1px solid #5294F5;
+	border-collapse: collapse;
+	text-align: center;
+	width:100%;
+}
+#sysxbox {
+	background-color: #CDCED0;
+	width: 30%;
+	float: left;
+	height: 300px;
+	padding:20px 20px 20px 20px;
+}
+
+#mainxbox {
+	background-color: #CDCED0;
+	width: 50%;
+	float:right;
+	height: 300px;
+	padding:20px 20px 20px 20px;
+}
+
+.titlexbox{
+	padding-top: 5px;
+	clear:both;
+	color: white;
+}
+
+#releasexbox {
+	height:200px;
+	background-color: #CDCED0;
+	float: right;
+	clear: both;
+	padding:20px 20px 20px 20px;
+	overflow: auto;
+}
+
+#releasexbox a{
+	color: #26282D;
+}
+#reviewxbox {
+	height:auto;
+	background-color: #CDCED0;
+	
+	clear: both;
+	padding:20px 20px 20px 20px;
+}
+
+#reviewxbox a{
+	color: #26282D;
+}
+#boxcontact h2 h3{
+	color:white;
+}
+.mainsign{
+	margin-bottom:200px;
+	margin-top:40px;
+}
+.usersign{
 	float:left;
-	width:40%;
+	width:200px;
 	margin-left:auto;
 	margin-right:auto;
 }
-.username{
-	margin-top:10px;
-	margin-bottom:10px;
-	
-}
-.password{
-	margin-top:10px;
-	margin-bottom:10px;
-}
 .something{
-	width:40%;
-	margin-left: 600px;
+	width:200px;
+	margin-left:300px;	
+}
+.usernamesign{
+	margin-top:10px;
+	margin-bottom:10px;
 	
 }
-.Signbutton{
+.passwordsign{
+	margin-top:10px;
+	margin-bottom:10px;
+}
+.signbutton{
 	margin-top:20px;
 	margin-bottom:20px;
 	margin-right: 20px;
 }
-.Signbutton a{
+.signbutton a{
 	text-decoration:none;
 }
-.Forgetpassword{
+.forgetpassword{
 	
 	margin:auto;
 }
 .forgetpassword a{
 	text-decoration:none;
 }
-.mainsign h3{
+.usersign h3{
 	color:#CDCED0;
 }
-
-.footer{
-	color:#CDCED0;
-	background-color:#212528;
-	text-align:center;
-}
-
-#signupselect{
+.signupselect{
 	margin-top:20px;
 }
-.signusername{
-	width:200px;
-	height:30px;
-}
-.signbutton{
-	font-size:20px;
-}
+
+
+	

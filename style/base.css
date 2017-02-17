@@ -74,10 +74,209 @@ For individual pages
 name + title of the page
 --------------------------------------------------------------------------------------------------------------*/
 
+/**************home********************/
 
-/*--------------------------------------------------------------------
-Xbox
----------------------------------------------------------------------*/
+header {
+	width: 100%;
+	background-color: #212528;
+	top: -10px;
+	left: -10px;
+	right: 30px;
+	width: 1165;
+	height: 150px;
+	margin: 0 auto 0 auto;
+	position: relative;
+	
+}
+#headerhome button{
+	float:right;
+	text-align: right;
+}
+/*----------------------
+body and fonts css
+----------------------*/
+body {
+	background-color: #37393E;
+}
+h1 {
+	color: #2FCC71;	
+	font-family: Part two;
+	src: url (fonts/Part_Two.ttf);
+}
+body p{
+	font-family: square block;
+	src: url (square_block.ttf);
+	font-size: 14px;
+}
+body a:hover{
+	color:black;
+}
+body a{
+	text-decoration: none;
+	font-size: large;
+}
+#mainhome {
+	width: 1165px;
+	margin-left: auto;
+	margin-right: auto;
+}
+#introhome { 
+	text-align: center;
+	color: #CDCED0;
+}
+/*----------------------
+Gaming platform and the img
+----------------------*/
+
+#gaming_platformshome {
+	text-align: center;
+}
+#platformshome {
+	width: 1165px;
+	margin-left: auto;
+	margin-right: auto;
+}
+#PChome {
+	width: 203px;
+	height: 391px;
+	float: left;
+	box-shadow: 3px 3px 10px white;
+}
+#PS4home{
+	margin-left: 30px;
+	width: 203px;
+	height: 391px;
+	float: left;
+	box-shadow: 3px 3px 10px blue;
+	}
+#XBOXhome{
+    margin-left: 30px;
+	width: 203px;
+	height: 391px;
+	float: left;
+	box-shadow: 3px 3px 10px green;
+	}
+#Nintendohome{
+	margin-left: 30px;
+	width: 203px;
+	height: 391px;
+	float: left;
+	box-shadow: 3px 3px 10px red;
+	}
+#Mobilehome{
+	margin-left: 932px;
+	width: 203px;
+	height: 391px;
+	box-shadow: 3px 3px 10px yellow;
+}
+/*--------------------------------
+Latest releases and reviews table 
+----------------------------------*/
+
+table {
+	height: 200px;
+	background-color: #607469;
+}
+#Releaseshome{
+	float: left;
+	height: 300px;
+	width: 550px;
+	margin-top: 30px;
+}
+#Releaseshome thead {
+	border: none;
+	font-weight: bold;
+	background-color: #22412F;
+	text-align: center;
+}
+#Releases_table2home {
+	float: left;
+	height: 300px;
+	width: 550px;
+	font-family: square block;
+	src: url (square_block.ttf);
+}
+#Reviewshome {
+	margin-left: 585px;
+	margin-top: 30px;
+	height: 300px;
+	width: 550px;
+}
+#Reviewshome thead {
+	border: none;
+	font-weight: bold;
+	background-color: #22412F;
+	text-align: center;
+}
+#Reviews_table2home {
+	float: left;
+	height: 300px;
+	width: 550px;
+	font-family: square block;
+	src: url (square_block.ttf);
+}
+.gamehome {
+	text-align: center;
+	width: 75px;
+	font-family: Part two;
+	src: url (fonts/Part_Two.ttf);
+}
+.titlehome {
+	text-align: center;
+	width: 225px;
+	font-family: Part two;
+	src: url (fonts/Part_Two.ttf);
+}
+.release_datehome {
+	text-align: center;
+	width: 150px;
+	font-family: Part two;
+	src: url (fonts/Part_Two.ttf);
+}
+.creatorhome {
+	text-align: center;
+	width: 75px;
+	font-family: Part two;
+	src: url (fonts/Part_Two.ttf);
+}
+.lefthome {
+	text-align: center;
+	width: 75px;
+	padding: 2px 2px;
+}
+.centerhome {
+	text-align: center;
+	width: 225px;
+	padding: 0 15px;
+}
+.righthome {
+	text-align: center;
+	width: 150px;
+}
+.right2home {
+	text-align: right;
+	width: 75px;
+}
+.scrollhome{
+	overflow-y: scroll;
+	height: 300px;
+}
+.table_headinghome {
+	font-size: 32px;
+	margin-bottom: 5px;
+	Font-weight: bold;
+	color: #2FCC71;
+	font-family: Part two;
+	src: url (fonts/Part_Two.ttf);
+}
+
+
+
+
+
+
+
+/*******************Xbox*********************/
 
 
 #sysxbox table{
@@ -134,9 +333,7 @@ Xbox
 }
 
 
-/*---------------------------------------------------------------
-sign in up, change password, forget password
------------------------------------------------------------------*/
+/**************sign in up, change password, forget password*********/
 
 
 .mainsign{
@@ -184,9 +381,7 @@ sign in up, change password, forget password
 .signupselect{
 	margin-top:20px;
 }
-/*------------------------------------
-Main forums pages
-------------------------------------*/
+/**********************Main forums pages*****************/
 #mainmfp {
 	width: 860;
 	margin: 0 auto 0 auto;

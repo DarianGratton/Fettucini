@@ -688,8 +688,8 @@ CSS Edit Profile & Profile Page
 	border-color: #2FCC71;
 	border-width: 5px;
     padding: 0px 20px 25px 20px;
-	width: 400px;
-	margin-left: 240px;
+	width: 75%;
+	margin-left: 20%;
 	margin-right: auto;
 }
 
@@ -700,7 +700,7 @@ CSS Edit Profile & Profile Page
 	float: left;
 	margin: 5px 5px 5px 5px;
 	padding: 5px 5px 5px 5px;
-	width: 200px;
+	width: 18%;
 	}
 .self { font-size: 0.7em;
 }

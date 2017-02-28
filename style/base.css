@@ -77,29 +77,18 @@ body p{
 #navsign{
 	border: 1px solid black;
 	border-radius: 15px;
-	width: 12%;
-	height: 10%;
+	width: 8%;
+	height: 4%;
 	background-color:#2FCC71;
 	text-align:center;
 	float:right;
 	margin:1%;
 }
-#navsign h2{
+#navsign p{
 	color:white;
+	font-size:1.0em;
 }
-#navlogin{
-	border: 1px solid black;
-	border-radius: 15px;
-	width: 12%;
-	height: 10%;
-	background-color:#2FCC71;
-	text-align:center;
-	float:right;
-	margin:1%;
-}
-#navlogin h2{
-	color:white;
-}
+
 #footer {
 	margin-left:auto;
 	margin-right:auto;

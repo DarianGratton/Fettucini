@@ -5,15 +5,17 @@
   <meta charset="utf-8">
   <link rel="stylesheet" href = "style/base.css">
 </head>
-
-<body id="bodyhome">
+<body>
 	
 	<div id="mainhome">
-	<div id="headerhome">
+	<div id="header">
 	<a href="index.html"><img src="images/logo.png" width="254" height="100" alt="TechDirect"/></a>
-
-	<a href="login.html"><button type="button">Log In</button></a>
-	<a href="signup.html"><button type="button">Sign Up</button></a>
+	<div id="navlogin">
+	<a href="login.html"><h2>Log In</h2></a>
+	</div>
+	<div id="navsign">
+	<a href="signup.html"><h2>Sign Up<h2></a>
+	</div>
 	</div>
   
 	<div id = "nav">
@@ -35,26 +37,27 @@
 	
 	<div id="platformshome">
 	
-		<div id="PChome"><a href="PC.html"><img src="Images/platform.placeholder.png" width= "203" height="391"></a>
+		<div id="PChome"><a href="PC.html"><img src="Images/platform.placeholder.png"></a>
 		</div>
 		
-		<div id="PS4home"><a href="PS4.html"><img src="Images/platform.placeholder.png" width= "203" height="391"></a>
+		<div id="PS4home"><a href="PS4.html"><img src="Images/platform.placeholder.png"></a>
 		</div>
 		
-		<div id="XBOXhome"><a href="XBOX.html"><img src="Images/platform.placeholder.png" width= "203" height="391"></a>
+		<div id="XBOXhome"><a href="XBOX.html"><img src="Images/platform.placeholder.png"></a>
 		</div>
 		
-		<div id="Nintendohome"><a href="Nintendo"><img src="Images/platform.placeholder.png" width= "203" height="391"></a>
+		<div id="Nintendohome"><a href="Nintendo"><img src="Images/platform.placeholder.png"></a>
 		</div>
 		
-		<div id="Mobilehome"><a href="Mobile.html"><img src="Images/platform.placeholder.png" width="203" height="391"></a>
+		<div id="Mobilehome"><a href="Mobile.html"><img src="Images/platform.placeholder.png"></a>
 		</div>
 		
 	</div>
 	
-	<div>
-		<table id = "Releaseshome">
-		<caption class="table_headinghome">Latest Releases</caption>
+	<div id="hometable">
+		<div id="tableleft">
+		<table class = "tablehead">
+			<caption class="table_headinghome">Latest Releases</caption>
 			<thead>
 				<tr>
 					<th class="gamehome">Game</th>
@@ -62,47 +65,39 @@
 					<th class="release_datehome">Release Date</th>
 				</tr>
 			</thead>
-			<tbody>
-				<tr>
-					<td colspan="3">
-			<div class="scrollhome">
-			<table id = "Releases_table2home">
-				<tr>
-					<td class="lefthome"><img src="images/rayman.jpg" alt="Rayman" width="83" height="120"></td>
-					<td class="centerhome"><a href="#">Rayman Legends</a> - Description</td>
-					<td class="righthome">Aug 29, 2013</td>
-				</tr>
-				<tr>
-					<td class="lefthome"><img src="images/halo_reach.jpg" alt="Rayman" width="83" height="120"></td>
-					<td class="centerhome"><a href="#">Halo Reach</a> - Description</td>
-					<td class="righthome">Sept 14, 2010</td>
-				</tr>
-				<tr>
-					<td class="lefthome"><img src="images/halo_reach.jpg" alt="Rayman" width="83" height="120"></td>
-					<td class="centerhome"><a href="#">Halo Reach</a> - Description</td>
-					<td class="righthome">Sept 14, 2010</td>
-				</tr>
-				<tr>
-					<td class="lefthome"><img src="images/halo_reach.jpg" alt="Rayman" width="83" height="120"></td>
-					<td class="centerhome"><a href="#">Halo Reach</a> - Description</td>
-					<td class="righthome">Sept 14, 2010</td>
-				</tr>
-				<tr>
-					<td class="lefthome"><img src="images/halo_reach.jpg" alt="Rayman" width="83" height="120"></td>
-					<td class="centerhome"><a href="#">Halo Reach</a> - Description</td>
-					<td class="righthome">Sept 14, 2010</td>
-				</tr>
-			</table>
-					</td>
-				</tr>
-			</div>
-			</tbody>
 		</table>
-	</div>
-	
-	<div>
-		<table id = "Reviewshome">
-		<caption class="table_headinghome">Latest Reviews</caption>
+			<div class="scrolltablewidth">
+				<table class = "tablewidth">
+					<tr>
+						<td class="lefthome"><div><img src="images/rayman.jpg" alt="Rayman"></div></td>
+						<td class="centerhome"><div><a href="#">Rayman Legends</a> - Description</div></td>
+						<td class="righthome">Aug 29, 2013</td>
+					</tr>
+					<tr>
+						<td class="lefthome"><img src="images/halo_reach.jpg" alt="Rayman"></td>
+						<td class="centerhome"><a href="#">Halo Reach</a> - Description</td>
+						<td class="righthome">Sept 14, 2010</td>
+					</tr>
+					<tr>
+						<td class="lefthome"><img src="images/halo_reach.jpg" alt="Rayman"></td>
+						<td class="centerhome"><a href="#">Halo Reach</a> - Description</td>
+						<td class="righthome">Sept 14, 2010</td>
+					</tr>
+					<tr>
+						<td class="lefthome"><img src="images/halo_reach.jpg" alt="Rayman"></td>
+						<td class="centerhome"><a href="#">Halo Reach</a> - Description</td>
+						<td class="righthome">Sept 14, 2010</td>
+					</tr>
+					<tr>
+						<td class="lefthome"><img src="images/halo_reach.jpg" alt="Rayman" width="83" height="120"></td>
+						<td class="centerhome"><a href="#">Halo Reach</a> - Description</td>
+						<td class="righthome">Sept 14, 2010</td>
+					</tr>
+				</table>
+			</div></div>
+			<div id="tableright">
+		<table class = "tablehead">
+			<caption class="table_headinghome">Latest Reviews</caption>
 			<thead>
 			<tr>
 				<th class="gamehome">Game</th>
@@ -110,40 +105,32 @@
 				<th class="creatorhome">Creator</th>
 			</tr>
 			</thead>
-			<tbody>
+		</table>
+		<div class="scrolltablewidth">
+			<table class = "tablewidth">
 				<tr>
-					<td colspan="3">
-			<div class="scrollhome">
-			<table id="Reviews_table2home">
-			<tr>
-				<td class="lefthome"><img src="images/rayman.jpg" alt="Rayman" width="83" height="120"></td>
-				<td class="centerhome"><a href="#">Rayman Legends</a> - Rayman is a great game with plenty of charm and fantasic level design</td>
-				<td class="right2home">G.O.D</td>
-			</tr>
-			<tr>
-				<td class="lefthome"><img src="images/halo_reach.jpg" alt="Rayman" width="83" height="120"></td>
-				<td class="centerhome"><a href="#">Halo Reach</a> - A WASTE OF HUMAN GARBGAE TOLLTY OVERRATED 0.1/10</td>
-				<td class="right2home">Xx_swag_xX</td>
-			</tr>
-			<tr>
-				<td class="lefthome"><img src="images/halo_reach.jpg" alt="Rayman" width="83" height="120"></td>
-				<td class="centerhome"><a href="#">Halo Reach</a> - A WASTE OF HUMAN GARBGAE TOLLTY OVERRATED 0.1/10</td>
-				<td class="right2home">Xx_swag_xX</td>
-			</tr>
-			</table>
-			</div>
-					</td>
+					<td class="lefthome"><img src="images/rayman.jpg" alt="Rayman" width="83" height="120"></td>
+					<td class="centerhome"><a href="#">Rayman Legends</a> - Rayman is a great game with plenty of charm and fantasic level design</td>
+					<td class="righthome">G.O.D</td>
 				</tr>
-			</tbody>
-	</table>
-	</div>
-	
+				<tr>
+					<td class="lefthome"><img src="images/halo_reach.jpg" alt="Rayman" width="83" height="120"></td>
+					<td class="centerhome"><a href="#">Halo Reach</a> - A WASTE OF HUMAN GARBGAE TOLLTY OVERRATED 0.1/10</td>
+					<td class="righthome">Xx_swag_xX</td>
+				</tr>
+				<tr>
+					<td class="lefthome"><img src="images/halo_reach.jpg" alt="Rayman" width="83" height="120"></td>
+					<td class="centerhome"><a href="#">Halo Reach</a> - A WASTE OF HUMAN GARBGAE TOLLTY OVERRATED 0.1/10</td>
+					<td class="righthome">Xx_swag_xX</td>
+				</tr>
+			</table>
+		</div></div>
+</div>
 	<div id="footer">
 	<a href="about.html">About Us</a> | 
 	<a href="contactus.html">Contact Us</a>
 	<p>&copy; TechDirect 2017</p>
-</div>
 	</div>
 	</div>
-	</body>
+</body>
 </html>

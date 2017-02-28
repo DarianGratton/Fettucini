@@ -16,12 +16,26 @@ body h2 {
 	src: url (fonts/Part_Two.ttf);
 	color: #2FCC71;	
 }
+#header {
+	width:100%;
+	margin-left: auto;
+	margin-right: auto;
+	position:relative;
+}
 h3 {
 	font-family: Part two;
-	src: url (fonts/Part_Two.ttf);	
+	src: url (fonts/Part_Two.ttf);
+	color:#2FCC71;
+	font-size:1.5em;
+	
 }
 body {
-	background-color:#37393E;
+	background-color: black;
+	background-image: url("../images/gaming-website-background2.jpg");
+	background-repeat:no-repeat;
+	background-size:130%;
+	background-position:top;
+	margin:0px;
 }
 body p{
 	font-family: square block;
@@ -40,7 +54,9 @@ body p{
 }
 	
 #nav {
-	height: 50px;
+	position:relative;
+	width:100%;
+	height:15%;	
 }
 #nav img{
 	text-align: center;
@@ -55,7 +71,34 @@ body p{
 	display: inline;
 	padding-right: 10px;
 	font-family: Chosence;
-	src: url (fonts/Chosence_Regular_Italic.otf)
+	src: url (fonts/Chosence_Regular_Italic.otf);
+	font-size:2em;
+}
+#navsign{
+	border: 1px solid black;
+	border-radius: 15px;
+	width: 12%;
+	height: 10%;
+	background-color:#2FCC71;
+	text-align:center;
+	float:right;
+	margin:1%;
+}
+#navsign h2{
+	color:white;
+}
+#navlogin{
+	border: 1px solid black;
+	border-radius: 15px;
+	width: 12%;
+	height: 10%;
+	background-color:#2FCC71;
+	text-align:center;
+	float:right;
+	margin:1%;
+}
+#navlogin h2{
+	color:white;
 }
 #footer {
 	margin-left:auto;
@@ -63,7 +106,9 @@ body p{
 	text-align: center;
 	background-color:#2FCC71;
 	position:relative;
-	margin-top: 30px;
+	margin-top: 3%;
+	position:relative;
+	width:100%;
 }
 #footer a{
 	font-family: Chosence;
@@ -76,28 +121,26 @@ name + title of the page
 
 /**************home********************/
 
-header {
-	width: 100%;
-	background-color: #212528;
-	top: -10px;
-	left: -10px;
-	right: 30px;
-	width: 1165;
-	height: 150px;
-	margin: 0 auto 0 auto;
-	position: relative;
-	
-}
 #headerhome button{
 	float:right;
 	text-align: right;
 }
+#introhome{
+	position:relative;
+	width:80%;
+	padding-left:0%;
+}
+#hometable{
+	position:relative;
+	width:100%;
+	margin-left:auto;
+	margin-right:auto;
+	height:30em;
+	margin-top:10%;
+}
 /*----------------------
 body and fonts css
 ----------------------*/
-body {
-	background-color: #37393E;
-}
 h1 {
 	color: #2FCC71;	
 	font-family: Part two;
@@ -116,13 +159,17 @@ body a{
 	font-size: large;
 }
 #mainhome {
-	width: 1165px;
+	width:60%;
 	margin-left: auto;
 	margin-right: auto;
+	position:relative;
+	padding-top:3%;
 }
 #introhome { 
 	text-align: center;
 	color: #CDCED0;
+	margin-left:auto;
+	margin-right:auto;
 }
 /*----------------------
 Gaming platform and the img
@@ -130,43 +177,48 @@ Gaming platform and the img
 
 #gaming_platformshome {
 	text-align: center;
+	width:80%;
+	margin-left:auto;
+	margin-right:auto;
 }
 #platformshome {
-	width: 1165px;
-	margin-left: auto;
-	margin-right: auto;
+	
+	position:relative;
+	width:80%;
+	margin-left:auto;
+	margin-right:auto;
+	
+}
+#platformshome img{
+	width:100%;
+	height:100%;
 }
 #PChome {
-	width: 203px;
-	height: 391px;
+	width: 15%;
 	float: left;
 	box-shadow: 3px 3px 10px white;
 }
 #PS4home{
-	margin-left: 30px;
-	width: 203px;
-	height: 391px;
+	margin-left: 5%;
+	width: 15%;
 	float: left;
 	box-shadow: 3px 3px 10px blue;
 	}
 #XBOXhome{
-    margin-left: 30px;
-	width: 203px;
-	height: 391px;
+    margin-left: 5%;
+	width: 15%;
 	float: left;
 	box-shadow: 3px 3px 10px green;
 	}
 #Nintendohome{
-	margin-left: 30px;
-	width: 203px;
-	height: 391px;
+	margin-left: 5%;
+	width: 15%;
 	float: left;
 	box-shadow: 3px 3px 10px red;
 	}
 #Mobilehome{
-	margin-left: 932px;
-	width: 203px;
-	height: 391px;
+	margin-left: 80%;
+	width: 15%;
 	box-shadow: 3px 3px 10px yellow;
 }
 /*--------------------------------
@@ -174,16 +226,32 @@ Latest releases and reviews table
 ----------------------------------*/
 
 table {
-	height: 200px;
 	background-color: #607469;
 }
-#Releaseshome{
-	float: left;
-	height: 300px;
-	width: 550px;
-	margin-top: 30px;
+.tablehead{
+	width: 100%;
 }
-#Releaseshome thead {
+#tableleft{
+	float:left;
+	width:48%;
+	height:80%;
+}
+#tableright{
+	margin-left:52%;
+	width:48%;
+	height:80%;
+}
+
+.scrolltablewidth{
+	width:100%;
+	height:100%;
+	overflow-y:scroll;
+}
+.tablewidth{
+	width: 100%;
+	height:10%;
+}
+.tablehead thead {
 	border: none;
 	font-weight: bold;
 	background-color: #22412F;
@@ -197,10 +265,8 @@ table {
 	src: url (square_block.ttf);
 }
 #Reviewshome {
-	margin-left: 585px;
-	margin-top: 30px;
-	height: 300px;
-	width: 550px;
+	width: 100%;
+	margin-top: 30px;	
 }
 #Reviewshome thead {
 	border: none;
@@ -217,49 +283,45 @@ table {
 }
 .gamehome {
 	text-align: center;
-	width: 75px;
+	width: 20%;
 	font-family: Part two;
 	src: url (fonts/Part_Two.ttf);
 }
 .titlehome {
 	text-align: center;
-	width: 225px;
+	width: 50%;
 	font-family: Part two;
 	src: url (fonts/Part_Two.ttf);
 }
 .release_datehome {
 	text-align: center;
-	width: 150px;
+	width: 30%;
 	font-family: Part two;
 	src: url (fonts/Part_Two.ttf);
 }
 .creatorhome {
 	text-align: center;
-	width: 75px;
+	width: 30%;
 	font-family: Part two;
 	src: url (fonts/Part_Two.ttf);
 }
 .lefthome {
 	text-align: center;
-	width: 75px;
+	width: 20%;
 	padding: 2px 2px;
 }
 .centerhome {
 	text-align: center;
-	width: 225px;
-	padding: 0 15px;
+	width: 50%;
 }
 .righthome {
 	text-align: center;
-	width: 150px;
-}
-.right2home {
-	text-align: right;
-	width: 75px;
+	width: 30%;
 }
 .scrollhome{
 	overflow-y: scroll;
-	height: 300px;
+	
+	margin-top:10%;
 }
 .table_headinghome {
 	font-size: 32px;
@@ -269,6 +331,13 @@ table {
 	font-family: Part two;
 	src: url (fonts/Part_Two.ttf);
 }
+.tableheight{
+	height: 20em;
+}
+.scrollhome{
+	overflow-y:scroll;
+}
+
 
 
 
@@ -339,16 +408,22 @@ table {
 .mainsign{
 	margin-bottom:200px;
 	margin-top:40px;
+	width:100%
 }
 .usersign{
 	float:left;
-	width:200px;
-	margin-left:auto;
+	width:30%;
+	margin-left:10%;
 	margin-right:auto;
 }
 .something{
-	width:200px;
-	margin-left:300px;	
+	width:50%;
+	margin-left:40%;
+	margin-right:auto;	
+}
+.something img{
+	width:100%;
+	height:100%;
 }
 .usernamesign{
 	margin-top:10px;
@@ -383,8 +458,11 @@ table {
 }
 /**********************Main forums pages*****************/
 #mainmfp {
-	width: 860;
+	width: 100%;
 	margin: 0 auto 0 auto;
+}
+#maintable{
+width:100%;
 }
 #Community_forums {
 	text-align: center;
@@ -394,7 +472,7 @@ table {
 	border: 1px solid black;
 	border-radius: 15px;
 	margin: 0 auto 15px auto;
-	width: 800px;
+	width: 70%;
 	height: 250px;
 	padding-left: 10px;
 	background-color: white;
@@ -440,11 +518,11 @@ table {
 #boxaboutus{
 margin-top:0px;
 margin-left:0px;
-margin-bottom:0px;
+margin-bottom:5%;
 margin-right:0px;
 }
 .boxaboutus{
-	width:800px;
+	width:100%;
 	margin-left:auto;
 	margin-right:auto;
 	display:block;
@@ -454,18 +532,20 @@ margin-right:0px;
 }
 .odd {
 	float: left;
-	margin-left:20px;
-	margin-right:20px;
+	margin-left:2%;
+	margin-right:2%;
 	}
 .hr {
 	border-style: dashed;
 }
 #mainaboutus h2 h3 {
 	text-align: center;
-	color:#CDCED0;
+	color:white;
+	font-size:0.75em;
 }
 #mainaboutus p {
 	color:#CDCED0;
+	font-size:1.5em;
 }
 /* Dropdown Button */
 .dropbtn {
@@ -524,6 +604,7 @@ Directory css
 		text-align:center;
 		padding-bottom: 10px;
 		font-size: 50px;
+		
 	}
 	.alphabet a:link{
 		color: white;
@@ -532,9 +613,13 @@ Directory css
 		color: black;
 	}
 	#games {
-		margin-top: 30px;
-		padding: 30px 30px 30px 30px;
-	background-color:#CDCED0;
+		margin-top: 2%;
+		padding: 1% 1% 1% 1%;
+		background-color:#CDCED0;
+		overflow:scroll;
+		height:700px;
+		margin-left:auto;
+		margin-right:auto;
 	}
 	#games li{
 		list-style-type: none;
@@ -615,20 +700,7 @@ CSS Edit Profile & Profile Page
 	margin-left: 240px;
 	margin-right: auto;
 }
-#nav {
-	height: 50px;
-}
-#nav img{
-	text-align: center;
-}
-#nav ul {
-	list-style: none;
-	background-color: #2FCC71;
-}
-#nav li {
-	display: inline;
-	padding-right: 10px;
-}	
+
 #profilepic {
 	border-style: solid;
 	border-width: 2px;

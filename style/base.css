@@ -42,12 +42,7 @@ body p{
 	src: url (square_block.ttf);
 	font-size: 14px;
 }
-#wrapper {
-	width:800px;
-	margin-left: auto;
-	margin-right: auto;
-	float: center;
-}
+
 #header button{
 	float:right;
 	text-align: right;
@@ -96,8 +91,12 @@ body p{
 	background-color:#2FCC71;
 	position:relative;
 	margin-top: 3%;
-	position:relative;
 	width:100%;
+	clear:both;
+}
+#footer p{
+	color:white;
+	font-size:1em;
 }
 #footer a{
 	font-family: Chosence;
@@ -392,7 +391,9 @@ table {
 
 
 /**************sign in up, change password, forget password*********/
-
+p {
+	color:#CDCED0;
+}
 
 .mainsign{
 	margin-bottom:20%;
@@ -402,13 +403,14 @@ table {
 .usersign{
 	float:left;
 	width:30%;
-	margin-left:10%;
+	margin-left:5%;
 	margin-right:auto;
+	margin-bottom:5%;
 }
 .something{
 	width:50%;
 	margin-left:40%;
-	margin-right:auto;	
+	
 }
 .something img{
 	width:100%;
@@ -703,4 +705,11 @@ CSS Edit Profile & Profile Page
 	width: 18%;
 	}
 .self { font-size: 0.7em;
+}
+/*label */
+.userheading{
+	font-family: Part two;
+	src: url (fonts/Part_Two.ttf);
+	color:#CDCED0;
+	font-size:1.5em;
 }

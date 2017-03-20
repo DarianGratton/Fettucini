@@ -6,6 +6,8 @@
 </head>
 <link rel="stylesheet" href = "style/base.css">
 <body>
+<script src="javascript/signjavascript.js"></script>
+
   <div id="mainhome">
 
 	<div id="header">
@@ -27,33 +29,40 @@
 		</ul>
 	</div>
 	<div class="mainsign">
+	<!--user name-->
 		<div class="usersign">
 			<div class="usernamesign">
-				<h3>Username:</h3>
-				<input class="signusername" type="text" name="username" placeholder="username">
+				<label for="username" class="userheading">Username:</label><br>
+				<input class="signusername" type="text" name="username" placeholder="username" id="username">
 				</div>
+	<!--password-->
 			<div class="passwordsign">
-				<h3>Password:</h3>
-				<input class="signusername" type="password" name="password" placeholder="password">
+				<label for="password" class="userheading">Password:</label><br>
+				<input class="signusername" type="password" name="password" placeholder="password" id="password">
 				</div>
+	<!--comfirm password-->
 			<div class="passwordsign">
-				<h3>Confirm Password:</h3>
-				<input class="signusername" type="password" name="password" placeholder="confirm password">
+				<label for="ConfirmPassword" class="userheading">Confirm Password:</label><br>
+				<input class="signusername" type="password" name="password" placeholder="confirm password" id="ConfirmPassword" onblur="testpassword()"><p id="warnpass"></p>
 				</div>
+	<!--email-->
 			<div>
-			<h3>Email:</h3>
-			<input id="email" type="text" name="email" placeholder="email"><br>
+				<label for="email" class="userheading">Email:</label><br>
+			<input id="email" type="text" name="email" placeholder="email" id="email" onchange="warnemail('email')"><p id="warnemail"></P><br>
 				</div>
+	<!--select-->
 			<div>
-			<select id="signupselect">
+			<select id="signupselect" onchange="warnselect('signupselect')">
 			<option value="0">Select your gender</option>
 			<option value="Female">Female</option>
 			<option value="Male">Male</option>
 			</select>
+	<!--sign button-->
 			<div class="signbutton">
             <form action="http://webdevfoundations.net/scripts/formdemo.asp" method="get">
-            <button type="submit" formaction="http://webdevfoundations.net/scripts/formdemo.asp">Sign Up</button>
+            <button type="submit" formaction="http://webdevfoundations.net/scripts/formdemo.asp" onclick="matchpassworod()" id="submit">Sign Up</button>
                 </div>
+	<!--forget password-->
 			<div class="forgetpassword">
 			<button><a href="Forgetpassword.html">Forget password?</a></button>
 				</div>

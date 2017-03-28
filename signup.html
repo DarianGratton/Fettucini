@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <title>Sign up</title>
+  <meta charset="utf-8">
+</head>
+<link rel="stylesheet" href = "style/base.css">
+<script src="javascript/signjavascript.js"></script>
+<body>
+  <div id="mainhome">
+
+	<div id="header">
+	<a href="index.html"><img src="images/logo.png" width="254" height="100" alt="TechDirect"/></a>
+
+	<div id="navsign">
+	<a href="login.html"><p>Log In</p></a>
+	</div>
+	<div id="navsign">
+	<a href="signup.html"><p>Sign Up</p></a>
+	</div>
+	</div>
+
+	<div id="nav">
+		<ul>
+		<li><a href="xbox.html">Consoles</a></li>
+		<li><a href="directory.html">Directory</a></li>
+		<li><a href="mainforumpage.html">Community</a></li>
+		</ul>
+	</div>
+
+	<div class="mainsign">
+	<!--user name-->
+		<div class="usersign">
+			<div class="usernamesign">
+				<label for="username" class="userheading">Username:</label><br>
+				<input class="signusername" type="text" name="username" placeholder="username" id="username" onblur="testusername()">
+				<p id="usernamep"></p>
+				</div>
+	<!--email-->
+			<div>
+				<label for="email" class="userheading">Email:</label><br>
+			<input id="email" type="text" name="email" placeholder="email" id="email" onchange="warnemail('email')"><p id="warnemail"></P><br>
+				</div>
+	<!--password-->
+			<div class="passwordsign">
+				<label for="password" class="userheading">Password:</label><br>
+				<input class="signusername" type="password" name="password" placeholder="password" id="password" onblur="testpasswords()"><p id="passwordp"></p>
+				</div>
+	<!--comfirm password-->
+			<div class="passwordsign">
+				<label for="ConfirmPassword" class="userheading">Confirm Password:</label><br>
+				<input class="signusername" type="password" name="password" placeholder="Re-enter password" id="ConfirmPassword" onblur="testpassword()"><p id="warnpass"></p>
+				</div>
+
+	<!--name-->
+		<div class="name">
+                   
+                      
+        	<label for="username" class="userheading">First Name:</label><br>
+                 
+                    <input type="text" placeholder="First Name" id="firstname" name="firstname" onblur="testfirstname()"><p id="firstnamep"></p>
+                    <label for="username" class="userheading">Last Name:</label><br>
+                    <input type="text" placeholder="Last Name" id="lastname" name="lastname" onblur="testlastname()"><p id="lastnamep"></p>
+                    <br>
+                </div>
+	<!--select-->
+			<div>
+			<label for="username" class="userheading">Please select your gender</label><br>
+			<select id="signupselect" onchange="warnselect('signupselect')">
+			<option value=" "></option>
+			<option value="Female">Female</option>
+			<option value="Male">Male</option>
+			<option value="Male">Other</option>
+			</select>
+	<!--sign button-->
+			<div class="signbutton">
+            <form action="http://webdevfoundations.net/scripts/formdemo.asp" method="get">
+            <button type="submit" formaction="http://webdevfoundations.net/scripts/formdemo.asp" onclick="matchpassword()" id="submit">Sign Up</button>
+                </div>
+
+		</div>
+		</div>
+				
+	</div>
+	<div id="footer">
+	<a href="about.html">About Us</a> | 
+	<a href="contactus.html">Contact Us</a>
+	<p>&copy; TechDirect 2017</p>
+	</div>
+</div>
+</body>
+</html>
+Add Comment

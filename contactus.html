@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <title>Contact Us</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style/base.css">
+  <script src="javascript/signjavascript.js"></script>
+</head>
+<body>
+	<div id="mainhome">
+
+	<div id="header">
+	<a href="index.html"><img src="images/logo.png" width="254" height="100" alt="TechDirect"/></a>
+	<div id="navsign">
+	<a href="login.html"><p>Log In</p></a>
+	</div>
+	<div id="navsign">
+	<a href="signup.html"><p>Sign Up</p></a>
+	</div>
+	</div>
+
+	<div id="nav">
+		<ul>
+		<li><a href="xbox.html">Console</a></li>
+		<li><a href="directory.html">Directory</a></li>
+		<li><a href="mainforumpage.html">Community</a></li>
+	</ul>
+	</div>
+	<div id="boxcontact">
+		<div class="innerbox">			
+		<div id="maincontact">
+			<h2>Contact Us</h2>
+			<p>No game postings you were looking for? Whatever it is, send us your comments or suggestions as part of making TechDirect a lively and orderly hub for gamers alike!</p>
+         </div>
+
+	<form>
+		<h3>Name/Username:</h3>
+		<input type="text" name="name" placeholder="username" onblur="testusername()" id="username">
+		<br>
+		<p id="usernamep"></p>
+	</form>
+	
+	<h3>Topic:</h3>
+	<select id="topic_select" onchange="warnselect2('topic_select')">
+	<option value="0">Select Topic</option>
+	<option value="1">Site Issues</option>
+	<option value="2">Add Games</option>
+	<option value="3">Media Queries</option>
+	<option value="4">Business Queries</option>
+	<option value="5">L'ARTketplace</option>
+	<option value="6">Report User/s</option>
+	<option value="7">Other</option>
+	</select>
+	<br>
+<textarea name="Feedback" cols="70" rows="12">
+</textarea>
+<form action="send">
+	<p><input type ="checkbox" name="confirm" value="PressButton" id="selectrobot" onchange="testselect('selectrobot')">Select this Button to prove that you're not a robot!</p><br>
+	<input type="button" value="Submit">
+	<input type="button" value="Clear">
+</form>
+		</div>
+</div>
+<div id="footer">
+<a href="about.html">About Us</a> | 
+<a href="contactus.html">Contact Us</a>
+<p>&copy; TechDirect 2017</p>
+</div>
+</div>
+</body>
+</html>

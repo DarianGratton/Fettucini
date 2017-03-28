@@ -1,0 +1,249 @@
+/*----------------------
+header css
+----------------------*/
+
+header {
+	width: 100%;
+	background-color: #212528;
+	top: -10px;
+	left: -10px;
+	right: 30px;
+	width: 1165;
+	height: 150px;
+	margin: 0 auto 0 auto;
+	position: relative;
+	
+}
+#header button{
+	float:right;
+	text-align: right;
+}
+/*----------------------
+body and fonts css
+----------------------*/
+body {
+	background-color: #37393E;
+}
+h1 {
+	color: #2FCC71;	
+	font-family: Part two;
+	src: url (fonts/Part_Two.ttf);
+}
+body p{
+	font-family: square block;
+	src: url (square_block.ttf);
+	font-size: 14px;
+}
+body a:hover{
+	color:black;
+}
+body a{
+	text-decoration: none;
+	font-size: large;
+}
+
+/*----------------------
+the entire page css
+----------------------*/
+
+#main {
+	width: 1165px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/*----------------------
+Style for nav
+----------------------*/
+
+#nav {
+	background-color: #2FCC71;
+}
+#nav ul {
+	list-style: none;
+	font-family: Chosence;
+	src: url (fonts/Chosence_Regular_Italic.otf)
+}
+#nav li {
+	display: inline;
+	padding-right: 10px;
+	font-family: Chosence;
+	src: url (fonts/Chosence_Regular_Italic.otf)
+}		
+#nav a {
+	text-decoration: none;
+}
+
+/*----------------------
+introduction
+----------------------*/
+
+#intro { 
+	text-align: center;
+	color: #CDCED0;
+}
+
+/*----------------------
+Gaming platform and the img
+----------------------*/
+
+#gaming_platforms {
+	text-align: center;
+}
+#platforms {
+	width: 1165px;
+	margin-left: auto;
+	margin-right: auto;
+}
+#PC {
+	width: 203px;
+	height: 391px;
+	float: left;
+	box-shadow: 3px 3px 10px white;
+}
+#PS4{
+	margin-left: 30px;
+	width: 203px;
+	height: 391px;
+	float: left;
+	box-shadow: 3px 3px 10px blue;
+	}
+#XBOX{
+    margin-left: 30px;
+	width: 203px;
+	height: 391px;
+	float: left;
+	box-shadow: 3px 3px 10px green;
+	}
+#Nintendo{
+	margin-left: 30px;
+	width: 203px;
+	height: 391px;
+	float: left;
+	box-shadow: 3px 3px 10px red;
+	}
+#Mobile{
+	margin-left: 932px;
+	width: 203px;
+	height: 391px;
+	box-shadow: 3px 3px 10px yellow;
+}
+
+/*--------------------------------
+Latest releases and reviews table 
+----------------------------------*/
+
+table {
+	height: 200px;
+	background-color: #607469;
+}
+#Releases{
+	float: left;
+	height: 300px;
+	width: 550px;
+	margin-top: 30px;
+}
+#Releases thead {
+	border: none;
+	font-weight: bold;
+	background-color: #22412F;
+	text-align: center;
+}
+#Releases_table2 {
+	float: left;
+	height: 300px;
+	width: 550px;
+	font-family: square block;
+	src: url (square_block.ttf);
+}
+#Reviews {
+	margin-left: 585px;
+	margin-top: 30px;
+	height: 300px;
+	width: 550px;
+}
+#Reviews thead {
+	border: none;
+	font-weight: bold;
+	background-color: #22412F;
+	text-align: center;
+}
+#Reviews_table2 {
+	float: left;
+	height: 300px;
+	width: 550px;
+	font-family: square block;
+	src: url (square_block.ttf);
+}
+.game {
+	text-align: center;
+	width: 75px;
+	font-family: Part two;
+	src: url (fonts/Part_Two.ttf);
+}
+.title {
+	text-align: center;
+	width: 225px;
+	font-family: Part two;
+	src: url (fonts/Part_Two.ttf);
+}
+.release_date {
+	text-align: center;
+	width: 150px;
+	font-family: Part two;
+	src: url (fonts/Part_Two.ttf);
+}
+.creator {
+	text-align: center;
+	width: 75px;
+	font-family: Part two;
+	src: url (fonts/Part_Two.ttf);
+}
+.left {
+	text-align: center;
+	width: 75px;
+	padding: 2px 2px;
+}
+.center {
+	text-align: center;
+	width: 225px;
+	padding: 0 15px;
+}
+.right {
+	text-align: center;
+	width: 150px;
+}
+.right2 {
+	text-align: right;
+	width: 75px;
+}
+.scroll{
+	overflow-y: scroll;
+	height: 300px;
+}
+.table_heading {
+	font-size: 32px;
+	margin-bottom: 5px;
+	Font-weight: bold;
+	color: #2FCC71;
+	font-family: Part two;
+	src: url (fonts/Part_Two.ttf);
+}
+
+/*----------------------
+Footer css
+----------------------*/
+
+#footer {
+	margin-left:auto;
+	margin-right:auto;
+	text-align: center;
+	background-color:#2FCC71;
+	position:relative;
+	margin-top: 30px;
+}
+#footer a{
+	font-family: Chosence;
+	src: url (fonts/Chosence_Regular_Italic.otf)
+}
+	

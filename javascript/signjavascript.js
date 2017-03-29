@@ -7,10 +7,15 @@ function $(id){
 
 /*match password*/
 function testpassword(){
+<<<<<<< HEAD
 	if(($("password").value.length <= 8))
 		$("passwordp").innerHTML="Please enter at least eight characters for your password";
 	else if(($("password").value)!=($("ConfirmPassword").value))
 		$("warnpass").innerHTML="please enter matching passwords";
+=======
+	if(($("password").value)!=($("ConfirmPassword").value))
+		$("warnpass").innerHTML="please enter two same password";
+>>>>>>> e59baf4bf058eaf03b1b1457ec212178e70ad13a
 	else
 		$("warnpass").innerHTML="";
 }
@@ -23,7 +28,11 @@ function testemail(id){
 		}
 function warnemail(id){
 	if(!testemail(id))
+<<<<<<< HEAD
 		$("warn"+id).innerHTML="Please enter valid email";
+=======
+		$("warn"+id).innerHTML="please enter valid email";
+>>>>>>> e59baf4bf058eaf03b1b1457ec212178e70ad13a
 	else
 		$("warn"+id).innerHTML="";
 }
@@ -66,3 +75,4 @@ function warnselect2(id) {
 			alert("You can't be a robot");
 		return false;
 	}
+

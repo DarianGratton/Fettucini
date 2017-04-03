@@ -6,6 +6,32 @@
 </head>
 <link rel="stylesheet" href = "style/base.css">
 <script src="javascript/signjavascript.js"></script>
+<?php 
+/**Beta*/
+$username = $_POST['username'];
+$email = $_POST['email'];
+$password1 = $_POST['password1'];
+$password2 = $_POST['password2'];
+$fName = $_POST['firstname'];
+$lName = $_POST['lastname'];
+$gender = $_POST['gender'];
+
+if(isset($_POST['submit'])) {
+	echo "User - ".$username;
+	
+/**From PHP-Ben*/
+	if( isset($_SESSION['ERRMSG_ARR']) && is_array($_SESSION['ERRMSG_ARR']) && count($_SESSION['ERRMSG_ARR']) >0 ) {
+		echo '<ul class="err">';
+		foreach($_SESSION['ERRMSG_ARR'] as $msg) {
+			echo '<li>',$msg,'</li>'; 
+		}
+		echo '</ul>';
+		unset($_SESSION['ERRMSG_ARR']);
+	}
+?>
+
+}
+?>
 <body>
   <div id="mainhome">
 
@@ -27,8 +53,10 @@
 		<li><a href="mainforumpage.html">Community</a></li>
 		</ul>
 	</div>
-
+	
 	<div class="mainsign">
+	<!--form-->
+	<form id="registerform" action="register_form.php" method="POST">
 	<!--user name-->
 		<div class="usersign">
 			<div class="usernamesign">
@@ -44,12 +72,12 @@
 	<!--password-->
 			<div class="passwordsign">
 				<label for="password" class="userheading">Password:</label><br>
-				<input class="signusername" type="password" name="password" placeholder="password" id="password" onblur="testpasswords()"><p id="passwordp"></p>
+				<input class="signusername" type="password" name="password1" placeholder="password" id="password" onblur="testpasswords()"><p id="passwordp"></p>
 				</div>
 	<!--comfirm password-->
 			<div class="passwordsign">
 				<label for="ConfirmPassword" class="userheading">Confirm Password:</label><br>
-				<input class="signusername" type="password" name="password" placeholder="Re-enter password" id="ConfirmPassword" onblur="testpassword()"><p id="warnpass"></p>
+				<input class="signusername" type="password" name="password2" placeholder="Re-enter password" id="ConfirmPassword" onblur="testpassword()"><p id="warnpass"></p>
 				</div>
 
 	<!--name-->
@@ -64,7 +92,7 @@
                 </div>
 	<!--select-->
 			<div>
-			<label for="username" class="userheading">Please select your gender</label><br>
+			<label for="username" class="userheading" name="gender">Please select your gender</label><br>
 			<select id="signupselect" onchange="warnselect('signupselect')">
 			<option value=" "></option>
 			<option value="Female">Female</option>
@@ -73,14 +101,16 @@
 			</select>
 	<!--sign button-->
 			<div class="signbutton">
-            <form action="http://webdevfoundations.net/scripts/formdemo.asp" method="get">
-            <button type="submit" formaction="http://webdevfoundations.net/scripts/formdemo.asp" onclick="matchpassword()" id="submit">Sign Up</button>
+            <!--<form action="http://webdevfoundations.net/scripts/formdemo.asp" method="get">-->
+            <button type="submit" formaction="register_form.php" onclick="matchpassword()" id="submit">Sign Up</button>
                 </div>
 
 		</div>
 		</div>
-				
+	</form>
+	<!-- form ends-->
 	</div>
+	
 	<div id="footer">
 	<a href="about.html">About Us</a> | 
 	<a href="contactus.html">Contact Us</a>

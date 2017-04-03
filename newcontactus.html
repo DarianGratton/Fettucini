@@ -1,0 +1,94 @@
+<!doctype html>
+<!--PHP code value visible. Integrate this with javascript to remove this!-->
+
+
+<html lang="en">
+<head>
+  <title>Contact Us</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style/base.css">
+  <script src="javascript/signjavascript.js"></script>
+</head>
+<body>
+	<div id="mainhome">
+
+	<div id="header">
+	<a href="index.html"><img src="images/logo.png" width="254" height="100" alt="TechDirect"/></a>
+	<div id="navsign">
+	<a href="login.html"><p>Log In</p></a>
+	</div>
+	<div id="navsign">
+	<a href="signup.html"><p>Sign Up</p></a>
+	</div>
+	</div>
+
+	<div id="nav">
+		<ul>
+		<li><a href="xbox.html">Console</a></li>
+		<li><a href="directory.html">Directory</a></li>
+		<li><a href="mainforumpage.html">Community</a></li>
+	</ul>
+	</div>
+	<div id="boxcontact">
+		<div class="innerbox">			
+		<div id="maincontact">
+			<h2>Contact Us</h2>
+			<p>No game postings you were looking for? Whatever it is, send us your comments or suggestions as part of making TechDirect a lively and orderly hub for gamers alike!</p>
+         </div>
+
+	<form class="form-horizontal" role="form" method="post" action="contactus.php">
+		<div class="form-group">
+			<h3><label for="name" class="col-sm-2 control-label">Username</label></h3>
+			<div class="col-sm-20">
+				<input type="text" class="form-control" id="username" name="username" onblur="testusername()" placeholder="username" value="<?php echo htmlspecialchars($_POST['username']); ?>">
+				<?php echo "<p class='text-danger'>$errName</p>";?>
+			</div>
+		</div>
+		<div class="form-group">
+			<h3><label for="email" class="col-sm-2 control-label">Email</label></h3>
+			<div class="col-sm-10">
+				<input type="email" class="form-control" id="email" name="email" onblur="testemail" placeholder="example@domain.com" value="<?php echo htmlspecialchars($_POST['email']); ?>">
+				<?php echo "<p class='text-danger'>$errEmail</p>";?>
+			</div>
+		</div>
+		<div class="form-group">
+			<h3><label for="topic" class="col-sm-2 control-label">Select Topic</label></h3>
+			<div class="col-sm-20">
+				<select type="radio" class="form-control" id="topic" name="topic" onchange="warnselect2('topic_select')" placeholder="topic" value="<?php echo htmlspecialchars($POST['topic']); ?>">
+					<option value="0"></option>
+					<option value="1">Site Issues</option>
+					<option value="2">Add Games</option>
+					<option value="3">Media Queries</option>
+					<option value="4">Business Queries</option>
+					<option value="5">Report User/s</option>
+					<option value="6">Other</option>
+				<?php echo "<p class='text-danger'>$errTopic</p>";?>
+				</select>
+			</div>
+		</div>
+		<div class="form-group">
+			<h3><label for="message" class="col-sm-2 control-label">Message</label></h3>
+			<div class="col-s-10">
+				<textarea class="form-control" rows="4" name="message"><?php echo htmlspecialchars($_POST['message']);?></textarea>
+				<?php echo "<p class='text-danger'>$errMessage</p>";?>
+			</div>
+		</div>
+		<div class="form-group">
+			<h3><label for="human" class="col-sm-2 control-label">2 + 3 = ?</label></h3>
+			<div class="col-sm-10">
+				<input type="text" class="form-control" id="human" name="human" placeholder="Your Answer">
+				<?php echo "<p class='text-danger'>$errHuman</p>";?>
+			</div>
+		</div>
+	</form>
+		</div>
+</div>
+<div id="footer">
+<a href="about.html">About Us</a> | 
+<a href="contactus.html">Contact Us</a>
+<p>&copy; TechDirect 2017</p>
+</div>
+</div>
+</body>
+</html>

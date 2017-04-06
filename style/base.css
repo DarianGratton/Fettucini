@@ -705,22 +705,29 @@ gamepage css
 CSS Edit Profile & Profile Page
 -----------------------------------------*/
 
+
+----------------------------
+{
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
 #info {
 	background-color: #212528;
 	border-style: solid;
 	border-color: #2FCC71;
 	border-width: 5px;
-    padding: 0px 20px 25px 20px;
-	width: 75%;
-	margin-left: 20%;
-	margin-right: auto;
+	padding: 0px 20px 25px 20px;
+	margin-right: 40%;
+	display: inline-block;
+    	position: relative;
+    	width: 95%;
+	color: white;
+	
 }
 
 #profilepic {
-	border-style: solid;
-	border-width: 2px;
-	border-color: #2FCC71;
-	float: left;
 	margin: 5px 5px 5px 5px;
 	padding: 5px 5px 5px 5px;
 	width: 18%;
@@ -728,9 +735,102 @@ CSS Edit Profile & Profile Page
 .self { font-size: 0.7em;
 }
 /*label */
-.userheading{
-	font-family: Part two;
-	src: url (fonts/Part_Two.ttf);
-	color:#CDCED0;
-	font-size:1.5em;
+
+form header {
+  margin: 0 0 20px 0; 
+}
+form header div {
+  font-size: 90%;
+  color: #999;
+}
+form header h2 {
+  margin: 0 0 5px 0;
+}
+form > div {
+  clear: both;
+  overflow: hidden;
+  padding: 1px;
+  margin: 0 0 10px 0;
+}
+form > div > fieldset > div > div {
+  margin: 0 0 5px 0;
+}
+form > div > label,
+legend {
+	width: 25%;
+  float: left;
+  padding-right: 10px;
+}
+form > div > div,
+form > div > fieldset > div {
+  width: 75%;
+  float: right;
+}
+form > div > fieldset label {
+	font-size: 90%;
+}
+fieldset {
+	border: 0;
+  padding: 0;
+}
+
+input[type=text],
+input[type=email],
+input[type=url],
+input[type=password],
+textarea {
+	width: 100%;
+  border-top: 1px solid #ccc;
+  border-left: 1px solid #ccc;
+  border-right: 1px solid #eee;
+  border-bottom: 1px solid #eee;
+}
+input[type=text],
+input[type=email],
+input[type=url],
+input[type=password] {
+  width: 50%;
+}
+input[type=text]:focus,
+input[type=email]:focus,
+input[type=url]:focus,
+input[type=password]:focus,
+textarea:focus {
+  outline: 0;
+  border-color: #4697e4;
+}
+
+@media (max-width: 600px) {
+  #info 
+	{
+	width: 80%;
+	}  
+  form > div {
+    margin: 0 0 15px 0; 
+  }
+  form > div > label,
+  legend {
+	  width: 100%;
+    float: none;
+    margin: 0 0 5px 0;
+  }
+  form > div > div,
+  form > div > fieldset > div {
+    width: 100%;
+    float: none;
+  }
+  input[type=text],
+  input[type=email],
+  input[type=url],
+  input[type=password],
+  textarea,
+  select {
+    width: 50%; 
+  }
+}
+@media (min-width: 1200px) {
+  form > div > label,
+	legend {
+  	text-align: right;
+  }
 }

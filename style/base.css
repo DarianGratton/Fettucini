@@ -659,16 +659,43 @@ gamepage css
 	.gamedescrip{
 		background-color: #CDCED0;
 		width: 50%;
-		float:right;
-		clear:both;
+		height: 400px;
+		float: right;
+		clear: both;
 		padding:20px 20px 20px 20px;
+		margin-left: -200px;
+		position: relative;
+		right: 100px;
 	}
 
-	#maingame img{
-		height: 480px;
-		width: 100%
+	#gamepics {
+		height: 650px;
+		width: 75%;
+		margin: 0 auto;
 	}
-
+	
+	.active {
+		height: 500px;
+		width: 400px;
+		text-align: center;
+		display: block;
+		margin: 0 auto;
+		margin-bottom: 15px;
+	}
+	
+	#sideimages {
+		margin: 0 auto;
+	}
+	
+	.side {
+		height: 125px;
+		width: 100px;
+		margin: 0 auto;
+		display: inline;
+		position: relative;
+		left: 125px;
+	}
+	
 	.screenshots {
 		width: 85%;
 		float: center;
@@ -682,25 +709,36 @@ gamepage css
 		height: 200px;
 		width: 200px;
 	}
-
-	#sysgame table{
-	border:1px solid #5294F5;
-	border-collapse: collapse;
-	text-align: center;
-	width:100%;
-}
-#sysgame {
-	background-color: #CDCED0;
-	width: 30%;
-	float: right;
-	height: 300px;
-	padding:20px 20px 20px 20px;
-}
-#main {
-	height: 1250px;
-	background-color: #9FABB;
-	padding: 20px 20px;
-}
+	#sysgame {
+		background-color: #CDCED0;
+		width: 30%;
+		float: left;
+		height: 400px;
+		padding:20px 20px 20px 20px;
+		margin-left: 100px;
+	}
+	#main {
+		height: 1250px;
+		background-color: #9FABB;
+		padding: 20px 20px;
+	}
+	.specs {
+		font-size: 1.2em;
+	}
+	.specs2 {
+		color: black;
+		margin-top: -25px;
+		margin-bottom: 20px; 
+	}
+	#gameinfo {
+		color: #CDCED0;
+	}
+	#paddingreviews {
+		margin-bottom: -20px;
+	}
+	.reviewgame2 {
+		text-align: right;
+	}
 /*----------------------------------------
 CSS Edit Profile & Profile Page
 -----------------------------------------*/

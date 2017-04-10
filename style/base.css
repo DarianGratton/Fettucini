@@ -610,7 +610,7 @@ margin-right:0px;
 /* Change the background color of the dropdown button when the dropdown content is shown */
 .dropdown:hover .dropbtn {
     background-color: #2FCC71;
-	color: blue;
+	color: #008082;
 	font-family: Chosence;
 	src: url (fonts/Chosence_Regular_Italic.otf)
 }

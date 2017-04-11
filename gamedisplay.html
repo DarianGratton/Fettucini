@@ -5,10 +5,42 @@
   <meta charset="utf-8">
   <link rel="stylesheet" href = "style/base.css">
 </head>
-<script>
+<script type="text/javascript" src="javascript/jquery-3.2.0.js"></script>
+<script type="text/javascript">
 function changeImage(a) {
         document.getElementById("imageMain").src=a;
     }
+$(document).ready(function(){
+
+    var counter = 2;
+
+    $("#addButton").click(function () {
+
+	if(counter > 2){
+            return false;
+	}
+	var newTextBoxDiv = $(document.createElement('div'))
+		.attr("id", 'TextBoxDiv' + counter);
+
+	newTextBoxDiv.after().html('<textarea name="review" form="reviewform">Begin typing to start your review...</textarea>' + counter + '" id="textbox' + counter + '" value="" >' + '<input type="submit" id="submitreview">');
+
+	newTextBoxDiv.appendTo("#TextBoxesGroup");
+
+
+	counter++;
+     });
+
+     $("#removeButton").click(function () {
+	if(counter==1){
+          return false;
+       }
+
+	counter--;
+
+        $("#TextBoxDiv" + counter).remove();
+
+     });
+  });
 </script>
 <body>
 
@@ -50,9 +82,9 @@ function changeImage(a) {
 		<img id="imageMain" class="active" src="Images/1.jpg" alt="game pic">
 	</div>
 	<div id="sideimages">
-		<img class="side" src="images/1.jpg" alt="game pic" onclick='changeImage("images/1.jpg");'> 
-		<img class="side" src = "images/halo_reach.JPG" alt="game pic" onclick='changeImage("images/halo_reach.JPG");'>  
-		<img class="side" src = "Images/1.jpg" alt="game pic" onclick='changeImage("images/halo_reach.JPG");'>
+		<img id="side1" class="side" src="images/1.jpg" alt="game pic" onclick='changeImage("images/1.jpg");' style="margin-left: -10px;"> 
+		<img class="side" src = "images/halo_reach.JPG" alt="game pic" onclick='changeImage("images/halo_reach.JPG");' style="margin-left: 15px;">  
+		<img class="side" src = "Images/1.jpg" alt="game pic" onclick='changeImage("images/halo_reach.JPG");' style="margin-left: 15px;">
 	</div>
 	</img>
 </div>
@@ -85,7 +117,14 @@ function changeImage(a) {
 </div>
 
 <div class="reviewgame2">
-<button style="text-align:center" type="button" onclick="loadTextBox()">Write an Review</button>
+<input type='button' value='Write an Review' id='addButton'>
+<input type='button' value='Cancel Review' id='removeButton'>
+<form action="/action_page.php" id="reviewform">
+<div id='TextBoxesGroup'>
+	<div id="TextBoxDiv1">
+	</div>
+</div>
+</form>
 </div>
 
 <div id="releasegame">

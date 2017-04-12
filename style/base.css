@@ -9,6 +9,7 @@ p {
 }
 body a{
 	text-decoration: none;
+	color: white;
 	font-size: large;
 }
 body h1{
@@ -69,7 +70,7 @@ body p{
 }
 #nav ul {
 	list-style: none;
-	background-color: #2FCC71;
+	background-color: #6D8383;
 	font-family: Chosence;
 	src: url (fonts/Chosence_Regular_Italic.otf)
 }
@@ -85,7 +86,7 @@ body p{
 	border-radius: 15px;
 	width: 8%;
 	height: 4%;
-	background-color:#2FCC71;
+	background-color:#6D8383;
 	text-align:center;
 	float:right;
 	margin:1%;
@@ -347,10 +348,11 @@ table {
 
 
 #sysxbox table{
-	border:2px solid #5294F5;
+	border: none;
 	border-collapse: collapse;
 	text-align: center;
 	width:100%;
+	background-color: #CDCED0; 
 }
 #sysxbox {
 	background-color: #CDCED0;
@@ -408,7 +410,11 @@ table {
 #boxcontact h2 h3{
 	color:white;
 }
-
+.xboxtable {
+	position: relative;
+	color: black;
+	font-weight: bold;
+}
 
 /**************sign in up, change password, forget password*********/
 
@@ -614,6 +620,7 @@ margin-right:0px;
 	font-family: Chosence;
 	src: url (fonts/Chosence_Regular_Italic.otf)
 }
+
 /*----------------------------------------
 Directory css
 -----------------------------------------*/
@@ -658,7 +665,8 @@ Directory css
 /*----------------------------------------
 gamepage css
 -----------------------------------------*/
-.gamedescrip{
+
+	.gamedescrip{
 		background-color: #CDCED0;
 		width: 50%;
 		height: 400px;
@@ -775,7 +783,6 @@ gamepage css
 		position: relative;
 		left: 55px;
 	}
-	
 /*----------------------------------------
 CSS Edit Profile & Profile Page
 -----------------------------------------*/

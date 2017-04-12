@@ -22,7 +22,7 @@ $(document).ready(function(){
 	var newTextBoxDiv = $(document.createElement('div'))
 		.attr("id", 'TextBoxDiv' + counter);
 
-	newTextBoxDiv.after().html('<textarea name="review" form="reviewform">Begin typing to start your review...</textarea>' + counter + '" id="textbox' + counter + '" value="" >' + '<input type="submit" id="submitreview">');
+	newTextBoxDiv.after().html('<h2>Game Title</h2>' + '<textarea name="review" form="reviewform"></textarea>' + counter + '" id="textbox' + counter + '" value="" >' + '<input type="submit" id="submitreview" value="Submit">' + '<input type="reset" name="Submit2" value="Reset">');
 
 	newTextBoxDiv.appendTo("#TextBoxesGroup");
 
@@ -97,7 +97,6 @@ $(document).ready(function(){
 	Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat 
 	non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."<p>
 	</div>
-	
 	<div id="sysgame">
 	<h3 class="specs" style="padding-top: 15px;">Console:</h3>
 	<p class="specs2">[Insert Platform]</p>
@@ -110,43 +109,11 @@ $(document).ready(function(){
 	<h3 class="specs">Release Date:</h3>
 	<p class="specs2">[MM/DD/YYYY]</p>
 	</div>
-</div>
-
-<div class="titlexbox">
-<h2 id="paddingreviews">Latest Reviews</h2>
-</div>
-
-<div class="reviewgame2">
-<input type='button' value='Write an Review' id='addButton'>
-<input type='button' value='Cancel Review' id='removeButton'>
-<form action="/action_page.php" id="reviewform">
-<div id='TextBoxesGroup'>
-	<div id="TextBoxDiv1">
+	
+	<div id="gamereview">
+		<h2 id="paddingreviews">Review</h2>
+		<p id="gamereviewp">Its a game. </p>
 	</div>
-</div>
-</form>
-</div>
-
-<div id="releasegame">
-<a href="game.html"><img src="images/game.html"><h3>Review 1</h3></a>
-<p style="color: black;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-<br><hr><br>
-
-<a href="game.html"><img src="images/game.html"><h3>Game 2</h3></a>
-<p style="color: black;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-<br><hr><br>
-</div>
-
 </div>
 
 <div id="footer">

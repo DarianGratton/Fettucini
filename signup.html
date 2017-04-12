@@ -5,42 +5,62 @@
   <meta charset="utf-8">
 </head>
 <link rel="stylesheet" href = "style/base.css">
-<script src="javascript/signjavascript.js"></script>
-<?php 
-/**Beta*/
-$username = $_POST['username'];
-$email = $_POST['email'];
-$password1 = $_POST['password1'];
-$password2 = $_POST['password2'];
-$fName = $_POST['firstname'];
-$lName = $_POST['lastname'];
-$gender = $_POST['gender'];
+<script>
+function testpassword(){
+	var x = document.getElementById("password").value;
+	var y = document.getElementById("confirmPassword").value;
 
-if(isset($_POST['submit'])) {
-	echo "User - ".$username;
-	
-/**From PHP-Ben*/
-	if( isset($_SESSION['ERRMSG_ARR']) && is_array($_SESSION['ERRMSG_ARR']) && count($_SESSION['ERRMSG_ARR']) >0 ) {
-		echo '<ul class="err">';
-		foreach($_SESSION['ERRMSG_ARR'] as $msg) {
-			echo '<li>',$msg,'</li>'; 
-		}
-		echo '</ul>';
-		unset($_SESSION['ERRMSG_ARR']);
+	if(x == y){
+		return true;
 	}
-?>
+	else {
+		document.getElementById("passwordp").innerHTML="Please enter matching passwords.";
+		return false;
+	}
+}
+
+function testPosition(id) {
+    return ($(id).selectedIndex != 0);
 
 }
-?>
+
+function warnPosition(id) {
+	if (!testPosition('gender')) {
+		return false;
+	}
+	else {
+		return true;
+	}
+}
+
+function validateForm() {
+	var validate = true;
+	if (!warnPosition('gender')) {
+		document.getElementById("genderp").innerHTML="You must select one.";
+	else {
+		document.getElementById("genderp").innerHTML="";
+
+	}
+	}
+}
+
+
+
+</script>
 <body>
   <div id="mainhome">
-	<!-- sign -->
+
 	<div id="header">
 	<a href="index.html"><img src="images/logo.png" width="254" height="100" alt="TechDirect"/></a>
-	<a href="login.html"><button type="button" class="pointer" >Login</button></a>
-	<a href="signup.html"><button type="button" class="pointer">Sign Up</button></a>
+
+	<div id="navsign">
+	<a href="login.html"><p>Log In</p></a>
 	</div>
-	<!--nav-->
+	<div id="navsign">
+	<a href="signup.html"><p>Sign Up</p></a>
+	</div>
+	</div>
+
 	<div id="nav">
 		<ul>
 		<li><a href="xbox.html">Consoles</a></li>
@@ -48,81 +68,67 @@ if(isset($_POST['submit'])) {
 		<li><a href="mainforumpage.html">Community</a></li>
 		</ul>
 	</div>
-	
+
 	<div class="mainsign">
-<<<<<<< HEAD
-	<form action="http://webdevfoundations.net/scripts/formdemo.asp" method="post">
-=======
-	<!--form-->
-	<form id="registerform" action="register_form.php" method="POST">
->>>>>>> 50a01426113aec348b9b4235ae4a6273c1cfbcd9
+	<h1>Create Your TechDirect Account</h1>
+	<form onsubmit="return validateForm()" method="post" name="form">
+	
+	<div class="usersign">
 	<!--user name-->
-		<div class="usersign">
 			<div class="usernamesign">
 				<label for="username" class="userheading">Username:</label><br>
-				<input class="signusername" type="text" name="username" placeholder="username" id="username" onblur="testusername()">
+				<input class="signusername" type="text" name="username" placeholder="username" id="username">
+
 				<p id="usernamep"></p>
-				</div>
+			</div>
 	<!--email-->
 			<div>
 				<label for="email" class="userheading">Email:</label><br>
-			<input id="email" type="text" name="email" placeholder="email" id="email" onchange="warnemail('email')"><p id="warnemail"></P><br>
-				</div>
+				<input id="email" type="text" name="email" placeholder="email" id="email"><p id="emailp"></p><br>
+			</div>
 	<!--password-->
 			<div class="passwordsign">
 				<label for="password" class="userheading">Password:</label><br>
-				<input class="signusername" type="password" name="password1" placeholder="password" id="password" onblur="testpasswords()"><p id="passwordp"></p>
-				</div>
+				<input class="signusername" type="password" name="password" placeholder="password" id="password">
+			</div>
 	<!--comfirm password-->
 			<div class="passwordsign">
 				<label for="ConfirmPassword" class="userheading">Confirm Password:</label><br>
-				<input class="signusername" type="password" name="password2" placeholder="Re-enter password" id="ConfirmPassword" onblur="testpassword()"><p id="warnpass"></p>
-				</div>
+				<input class="signusername" type="password" name="password" placeholder="confirm password" id="confirmPassword" onblur="testpassword()"><p id="passwordp"></p>			
+			</div>
 
 	<!--name-->
 		<div class="name">
                                          
-        	<label for="username" class="userheading">First Name:</label><br>
+        	<label for="firstname" class="userheading">First Name</label>&nbsp;&nbsp;<label for="lastname" class="userheading">Last Name</label><br>
                  
-                    <input type="text" placeholder="First Name" id="firstname" name="firstname" onblur="testfirstname()"><p id="firstnamep"></p>
-                    <label for="username" class="userheading">Last Name:</label><br>
-                    <input type="text" placeholder="Last Name" id="lastname" name="lastname" onblur="testlastname()"><p id="lastnamep"></p>
-                    <br>
-                </div>
+            <input type="text" placeholder="first name" id="firstname" name="firstname">&nbsp;<input type="text" placeholder="last name" id="lastname" name="lastname">
+
+            <p id="firstnamep"></p><p id="lastnamep"></p>
+            <br>
+        </div>
 	<!--select-->
 			<div>
-			<label for="username" class="userheading" name="gender">Please select your gender</label><br>
-			<select id="signupselect" onchange="warnselect('signupselect')">
+			<label for="username" class="userheading">Please select your gender</label><br>
+
+			<select id="gender">
 			<option value=" "></option>
-			<option value="Female">Female</option>
-			<option value="Male">Male</option>
-<<<<<<< HEAD
-			<option value="Other">Other</option>
+			<option value="Female" id ="female">Female</option>
+			<option value="Male" id="male">Male</option>
+			<option value="Other" id="other">Other</option>
 			</select>
+			<p id="genderp"></p>
 	<!--sign button-->
 			<div class="signbutton">
-            
-            <button type="submit" action="http://webdevfoundations.net/scripts/formdemo.asp" onclick="matchpassworod()" id="submit">Sign Up</button>
-=======
-			<option value="Male">Other</option>
-			</select>
-	<!--sign button-->
-			<div class="signbutton">
-            <!--<form action="http://webdevfoundations.net/scripts/formdemo.asp" method="get">-->
-            <button type="submit" formaction="register_form.php" onclick="matchpassword()" id="submit">Sign Up</button>
->>>>>>> 50a01426113aec348b9b4235ae4a6273c1cfbcd9
+           
+            <button type="submit" id="submit">Sign Up</button>
                 </div>
 
 		</div>
 		</div>
-<<<<<<< HEAD
 		</form>
-=======
-	</form>
-	<!-- form ends-->
->>>>>>> 50a01426113aec348b9b4235ae4a6273c1cfbcd9
+				
 	</div>
-	
 	<div id="footer">
 	<a href="about.html">About Us</a> | 
 	<a href="contactus.html">Contact Us</a>

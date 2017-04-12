@@ -416,6 +416,78 @@ table {
 	font-weight: bold;
 }
 
+/*******************PS4*********************/
+
+
+#sysps table{
+	border: none;
+	border-collapse: collapse;
+	text-align: center;
+	width:100%;
+	background-color: #CDCED0; 
+}
+#sysps {
+	background-color: #CDCED0;
+	width: 30%;
+	float: left;
+	height: 300px;
+	padding:20px 20px 20px 20px;
+}
+#mainps {
+	background-color: #CDCED0;
+	width: 50%;
+	float:right;
+	height: 300px;
+	padding:20px 20px 20px 20px;
+}
+.titleps{
+	padding-top: 5px;
+	clear:both;
+	color: white;
+}
+
+#releaseps {
+	height:200px;
+	background-color: #CDCED0;
+	float: right;
+	clear: both;
+	padding:20px 20px 20px 20px;
+	overflow: auto;
+}
+
+#releasegame {
+	height:200px;
+	background-color: #CDCED0;
+	float: right;
+	clear: both;
+	padding:20px 20px 20px 20px;
+	overflow: auto;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+#releaseps a{
+	color: #26282D;
+}
+#reviewps {
+	height:auto;
+	background-color: #CDCED0;
+	clear: both;
+	padding:20px 20px 20px 20px;
+}
+
+#reviewps a{
+	color: #26282D;
+}
+#boxcontact h2 h3{
+	color:white;
+}
+.pstable {
+	position: relative;
+	color: black;
+	font-weight: bold;
+}
+
 /**************sign in up, change password, forget password*********/
 
 p {
@@ -606,7 +678,13 @@ margin-right:0px;
 }
 
 /* Change color of dropdown links on hover */
-.dropdown-content a:hover {background-color: #f1f1f1}
+
+
+.dropdown-content #pcdropdown:hover {background-color: gray}
+.dropdown-content #psdropdown:hover {background-color: #006FC6}
+.dropdown-content #xboxdropdown:hover {background-color: #2FCC71}
+.dropdown-content #mobiledropdown:hover {background-color: yellow}
+.dropdown-content #switchdropdown:hover {background-color: #FF0000}
 
 /* Show the dropdown menu on hover */
 .dropdown:hover .dropdown-content {

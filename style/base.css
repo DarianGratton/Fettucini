@@ -658,8 +658,7 @@ Directory css
 /*----------------------------------------
 gamepage css
 -----------------------------------------*/
-
-	.gamedescrip{
+.gamedescrip{
 		background-color: #CDCED0;
 		width: 50%;
 		height: 400px;
@@ -697,8 +696,12 @@ gamepage css
 		display: inline;
 		position: relative;
 		left: 125px;
+		margin-left: 10px;
+		border: 2px solid black;
 	}
-	
+	.side:hover {
+		border: 2px solid #2FCC71;
+	}
 	.screenshots {
 		width: 85%;
 		float: center;
@@ -738,10 +741,41 @@ gamepage css
 	}
 	#paddingreviews {
 		margin-bottom: -20px;
+		padding-bottom: 15px;
+		padding-left: 15px;
+	}
+	#gamereviewp {
+		color: black;
+		padding-left: 15px;
+		padding-right: 15px;
 	}
 	.reviewgame2 {
 		text-align: right;
 	}
+	#TextBoxesGroup textarea{
+		height: 300px;
+		width: 425px;
+		margin-top: 10px;
+		display: block;
+		position: relative;
+		left: -25px;
+	}
+	#TextBoxesGroup #submitreview{
+		position: relative;
+		right: 180px;
+		margin-top: 10px;
+	}
+	#gamereview {
+		background-color: #CDCED0;
+		width: 85%;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 15px;
+		display: inline-block;
+		position: relative;
+		left: 55px;
+	}
+	
 /*----------------------------------------
 CSS Edit Profile & Profile Page
 -----------------------------------------*/

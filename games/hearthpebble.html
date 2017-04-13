@@ -1,11 +1,11 @@
 <!doctype html>
 <html lang="en">
 <head>
-  <title>Game Display</title>
+  <title>HearthPebble</title>
   <meta charset="utf-8">
   <link rel="stylesheet" href = "../style/base.css">
 </head>
-<script type="text/javascript" src="javascript/jquery-3.2.0.js"></script>
+<script type="text/javascript" src="../javascript/jquery-3.2.0.js"></script>
 <script type="text/javascript">
 function changeImage(a) {
         document.getElementById("imageMain").src=a;
@@ -47,13 +47,13 @@ $(document).ready(function(){
 <div id="mainhome">
 
 	<div id="header">
-	<a href="index.html"><img src="images/logo.png" width="254" height="100" alt="TechDirect"/></a>
+	<a href="../index.html"><img src="../images/logo.png" width="254" height="100" alt="TechDirect"/></a>
 
 	<div id="navsign">
-	<a href="login.html"><p>Log In</p></a>
+	<a href="../login.html"><p>Log In</p></a>
 	</div>
 	<div id="navsign">
-	<a href="signup.html"><p>Sign Up</p></a>
+	<a href="../signup.html"><p>Sign Up</p></a>
 	</div>
 	</div>
 
@@ -63,51 +63,56 @@ $(document).ready(function(){
 	<div class="dropdown">
 		<button class="dropbtn">Consoles</button>
 		<div class="dropdown-content">
-			<a href="pc.html" id="pcdropdown">PC</a>
-			<a href="xbox.html" id="xboxdropdown">Xbox One</a>
-			<a href="ps4.html" id="psdropdown">PS4</a>
-			<a href="switch.html" id="switchdropdown">Switch</a>
-			<a href="mobile.html" id="mobiledropdown">Mobile</a>
+			<a href="../pc.html" id="pcdropdown">PC</a>
+			<a href="../xbox.html" id="xboxdropdown">Xbox One</a>
+			<a href="../ps4.html" id="psdropdown">PS4</a>
+			<a href="../switch.html" id="switchdropdown">Switch</a>
+			<a href="../mobile.html" id="mobiledropdown">Mobile</a>
 		</div>
 	</div>
 	</li>
-	<li><a href="directory.html">Directory</a></li>
-	<li><a href="mainforumpage.html">Community</a></li>
+	<li><a href="../directory.html">Directory</a></li>
+	<li><a href="../mainforumpage.html">Community</a></li>
 	</ul>
 </div>
 
 <div id="main">
+<h1>HearthPebble</h1>
 <div id="gamepics">
 	<div id="mainimage">
-		<img id="imageMain" class="active" src="Images/1.jpg" alt="game pic">
+		<img id="imageMain" class="active" src="../Images/1.jpg" alt="game pic">
 	</div>
 	<div id="sideimages">
-		<img id="side1" class="side" src="images/1.jpg" alt="game pic" onclick='changeImage("images/1.jpg");' style="margin-left: -10px;"> 
-		<img class="side" src = "images/halo_reach.JPG" alt="game pic" onclick='changeImage("images/halo_reach.JPG");' style="margin-left: 15px;">  
-		<img class="side" src = "Images/1.jpg" alt="game pic" onclick='changeImage("images/halo_reach.JPG");' style="margin-left: 15px;">
+		<img id="side1" class="side" src="../images/1.jpg" alt="game pic" onclick='changeImage("../images/1.jpg");' style="margin-left: -10px;"> 
+		<img class="side" src = "../images/halo_reach.JPG" alt="game pic" onclick='changeImage("../images/halo_reach.JPG");' style="margin-left: 15px;">  
+		<img class="side" src = "../Images/1.jpg" alt="game pic" onclick='changeImage("../images/1.JPG");' style="margin-left: 15px;">
 	</div>
 	</img>
 </div>
 
 <div id ="gameinfo">
   <div class = "gamedescrip">
-  <h1>HearthPebble</h1>
-	<p style="color: black;"> "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et 
-	dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-	Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat 
-	non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."<p>
+  <h1>What is HearthPebble</h1>
+	<p style="color: black;"> After a long day grinding and raiding, you can return back to your inn where you can relax and enjoy some butterbeer whilst playing HearthPebble. HearthPebble is a free card based strategy game developed and produced by SnowStorm Inc.  Using the lore from Planet of Warcraft, cards are pitched against each other in battle.  Similar to collecting cards, you have to buy cards and construct your own decks.  You start off with some basic cards that is available to everyone joining HearthPebble.  As you play, you’re able to buy more packs using gold, an in game currency.  You can also use real world money to purchase extra packs.  Every pack rewards you with five cards.  One of which will be at least a rare.  Cards have different levels of rarity - common, rare, epic, and legendary.  
+	<br><br>
+	There are two sets of cards - Standard and Wild.  Standard is the two most recent years of released cards, whereas Wild contains all cards ever released.  There are usually at least three expansions released every year with about a hundred cards each.  With each new release, the meta of the game is ever changing introducing a new feel.  As with the adventures, new ones are released every year with more cards.
+	<br><br>
+	You can face either the Inn Keeper or other players who are also taking a break from questing or recovering from a long’s day worth of looting.  When facing the Inn Keeper, you are facing the AI, where you can practise your decks against other pre-made decks.  Playing other people is the exact same, except of the variation of decks.  Players are allowed to choose any decks.  Lastly, you can play a single player adventure that must be purchased with either currency.  These adventures follow a theme with multiple bosses that you must play against.  The first time the boss is beat, you are rewarded with new cards.  There are also bonus cards after the completion of each level.
+	<br><br>
+	In total, there are nine classes to choose from, taken directly from Planet of Warcraft.  Not only does each class have its own hero ability, but also its own set of class cards. The play style of each class is dictated by the hero power and the class cards.  There are different variations amongst the classes, but sometimes, some play style are only limited to a particular class.
+<p>
 	</div>
 	<div id="sysgame">
 	<h3 class="specs" style="padding-top: 15px;">Console:</h3>
-	<p class="specs2">[Insert Platform]</p>
+	<p class="specs2">PC, Mac, iO, Android</p>
 	<h3 class="specs">Genre:</h3>
-	<p class="specs2">[Insert Genres]</p>
+	<p class="specs2">Fantasy</p>
 	<h3 class="specs">Developer:</h3>
-	<p class="specs2">[Insert Developer]</p>
+	<p class="specs2">SnowStorm Inc.</p>
 	<h3 class="specs">Publisher:</h3>
-	<p class="specs2">[Insert Publisher]</p>
+	<p class="specs2">SnowStorm Inc.</p>
 	<h3 class="specs">Release Date:</h3>
-	<p class="specs2">[MM/DD/YYYY]</p>
+	<p class="specs2">March 11, 2014</p>
 	</div>
 	
 	<div id="gamereview">

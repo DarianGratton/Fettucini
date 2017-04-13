@@ -754,6 +754,7 @@ gamepage css
 		margin-left: -200px;
 		position: relative;
 		right: 100px;
+		overflow: scroll;
 	}
 
 	#gamepics {
@@ -807,7 +808,7 @@ gamepage css
 		float: left;
 		height: 400px;
 		padding:20px 20px 20px 20px;
-		margin-left: 100px;
+		margin-left: 75px;
 	}
 	#main {
 		height: 1250px;

@@ -36,9 +36,9 @@
   
 	<div id = "nav">
 		<ul>
-			<li><a href="consoles.html">Consoles</a></li>
-			<li><a href="directory.html">Directory</a></li>
-			<li><a href="mainforumpage.html">Community</a></li>
+			<li><a href="consoles.php">Consoles</a></li>
+			<li><a href="directory.php">Directory</a></li>
+			<li><a href="forum.php">Community</a></li>
 		</ul>
 	</div>
   	<div id = "introhome">

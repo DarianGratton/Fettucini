@@ -416,6 +416,77 @@ table {
 	font-weight: bold;
 }
 
+/*******************PC*********************/
+
+
+#syspc table{
+	border: none;
+	border-collapse: collapse;
+	text-align: center;
+	width:100%;
+	background-color: #CDCED0; 
+}
+#syspc {
+	background-color: #CDCED0;
+	width: 30%;
+	float: left;
+	height: 300px;
+	padding:20px 20px 20px 20px;
+}
+#mainpc {
+	background-color: #CDCED0;
+	width: 50%;
+	float:right;
+	height: 300px;
+	padding:20px 20px 20px 20px;
+}
+.titlepc{
+	padding-top: 5px;
+	clear:both;
+	color: white;
+}
+
+#releasepc {
+	height:200px;
+	background-color: #CDCED0;
+	float: right;
+	clear: both;
+	padding:20px 20px 20px 20px;
+	overflow: auto;
+}
+
+#releasegame {
+	height:200px;
+	background-color: #CDCED0;
+	float: right;
+	clear: both;
+	padding:20px 20px 20px 20px;
+	overflow: auto;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+#releasepc a{
+	color: #26282D;
+}
+#reviewpc {
+	height:auto;
+	background-color: #CDCED0;
+	clear: both;
+	padding:20px 20px 20px 20px;
+}
+
+#reviewpc a{
+	color: #26282D;
+}
+#boxcontact h2 h3{
+	color:white;
+}
+.pctable {
+	position: relative;
+	color: black;
+	font-weight: bold;
+}
 /*******************PS4*********************/
 
 
@@ -642,7 +713,7 @@ margin-right:0px;
 }
 /* Style The Dropdown Button */
 .dropbtn {
-    background-color: #2FCC71;
+    background-color: #6D8383;
 	width: 73px;
     color: blue;
     padding: 16px;
@@ -693,7 +764,7 @@ margin-right:0px;
 
 /* Change the background color of the dropdown button when the dropdown content is shown */
 .dropdown:hover .dropbtn {
-    background-color: #2FCC71;
+    background-color: #6D8383;
 	color: #008082;
 	font-family: Chosence;
 	src: url (fonts/Chosence_Regular_Italic.otf)

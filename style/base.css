@@ -839,7 +839,7 @@ gamepage css
 		width: 400px;
 		text-align: center;
 		display: block;
-		margin: 0 auto;
+		margin: auto;
 		margin-bottom: 15px;
 	}
 	

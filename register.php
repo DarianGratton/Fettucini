@@ -85,7 +85,7 @@
 	if($errflag) {
 		$_SESSION['ERRMSG_ARR'] = $errmsg_arr;
 		session_write_close();
-		header("location: signup.php");
+		header("location: register_form.php");
 		exit();
 	}
 

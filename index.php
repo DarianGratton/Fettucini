@@ -38,6 +38,7 @@
 		<ul>
 			<li><a href="consoles.php">Consoles</a></li>
 			<li><a href="directory.php">Directory</a></li>
+<<<<<<< HEAD
 			<li><a href="mainforumpage.php">Community</a></li>
 		</ul>
 	</div>
@@ -135,6 +136,9 @@
 			<li><a href="consoles.php">Consoles</a></li>
 			<li><a href="directory.php">Directory</a></li>
 			<li><a href="mainforumpage.php">Community</a></li>
+=======
+			<li><a href="forum.php">Community</a></li>
+>>>>>>> bade83ba30d781ebf2691e6cbba319cd5af62fa2
 		</ul>
 	</div>
   	<div id = "introhome">

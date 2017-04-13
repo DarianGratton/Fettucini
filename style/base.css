@@ -107,6 +107,7 @@ body p{
 	clear:both;
 }
 #footer p{
+	color:#4f4f57;
 	font-size:1em;
 }
 #footer a{
@@ -416,6 +417,77 @@ table {
 	font-weight: bold;
 }
 
+/*******************Mobile*********************/
+
+
+#sysmobile table{
+	border: none;
+	border-collapse: collapse;
+	text-align: center;
+	width:100%;
+	background-color: #CDCED0; 
+}
+#sysmobile {
+	background-color: #CDCED0;
+	width: 30%;
+	float: left;
+	height: 300px;
+	padding:20px 20px 20px 20px;
+}
+#mainmobile {
+	background-color: #CDCED0;
+	width: 50%;
+	float:right;
+	height: 300px;
+	padding:20px 20px 20px 20px;
+}
+.titlemobile{
+	padding-top: 5px;
+	clear:both;
+	color: white;
+}
+
+#releasemobile {
+	height:200px;
+	background-color: #CDCED0;
+	float: right;
+	clear: both;
+	padding:20px 20px 20px 20px;
+	overflow: auto;
+}
+
+#releasegame {
+	height:200px;
+	background-color: #CDCED0;
+	float: right;
+	clear: both;
+	padding:20px 20px 20px 20px;
+	overflow: auto;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+#releasemobile a{
+	color: #26282D;
+}
+#reviewmobile {
+	height:auto;
+	background-color: #CDCED0;
+	clear: both;
+	padding:20px 20px 20px 20px;
+}
+
+#reviewmobile a{
+	color: #26282D;
+}
+#boxcontact h2 h3{
+	color:white;
+}
+.mobiletable {
+	position: relative;
+	color: black;
+	font-weight: bold;
+}
 /*******************PC*********************/
 
 
@@ -788,7 +860,10 @@ Directory css
 		color: white;
 	}
 	.alphabet a:hover{
-		color: black;
+		color: gray;
+	}
+	.alphabet a:visited {
+		color:green;
 	}
 	#games {
 		margin-top: 2%;

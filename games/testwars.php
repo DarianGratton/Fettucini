@@ -77,16 +77,16 @@ $(document).ready(function(){
 	<div class="dropdown">
 		<button class="dropbtn">Consoles</button>
 		<div class="dropdown-content">
-			<a href="../pc.html" id="pcdropdown">PC</a>
-			<a href="../xbox.html" id="xboxdropdown">Xbox One</a>
-			<a href="../ps4.html" id="psdropdown">PS4</a>
-			<a href="../switch.html" id="switchdropdown">Switch</a>
-			<a href="../mobile.html" id="mobiledropdown">Mobile</a>
+			<a href="../pc.php" id="pcdropdown">PC</a>
+			<a href="../xbox.php" id="xboxdropdown">Xbox One</a>
+			<a href="../ps4.php" id="psdropdown">PS4</a>
+			<a href="../switch.php" id="switchdropdown">Switch</a>
+			<a href="../mobile.php" id="mobiledropdown">Mobile</a>
 		</div>
 	</div>
 	</li>
-	<li><a href="../directory.html">Directory</a></li>
-	<li><a href="../mainforumpage.html">Community</a></li>
+	<li><a href="../directory.php">Directory</a></li>
+	<li><a href="../mainforumpage.php">Community</a></li>
 	</ul>
 </div>
 
@@ -134,8 +134,8 @@ $(document).ready(function(){
 </div>
 
 <div id="footer">
-<a href="about.html">About Us</a> | 
-<a href="contactus.html">Contact Us</a>
+<a href="about.php">About Us</a> | 
+<a href="contactus.php">Contact Us</a>
 <p>&copy; TechDirect 2017</p>
 </div>
 </div>

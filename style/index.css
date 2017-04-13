@@ -63,6 +63,7 @@ Style for nav
 	list-style: none;
 	font-family: Chosence;
 	src: url (fonts/Chosence_Regular_Italic.otf)
+
 }
 #nav li {
 	display: inline;

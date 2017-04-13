@@ -36,9 +36,9 @@
   
 	<div id = "nav">
 		<ul>
-			<li><a href="consoles.html">Consoles</a></li>
-			<li><a href="directory.html">Directory</a></li>
-			<li><a href="mainforumpage.html">Community</a></li>
+			<li><a href="consoles.php">Consoles</a></li>
+			<li><a href="directory.php">Directory</a></li>
+			<li><a href="mainforumpage.php">Community</a></li>
 		</ul>
 	</div>
   	<div id = "introhome">
@@ -52,19 +52,19 @@
 	
 <div id="platformshome">
     
-        <div id="PChome"><a href="PC.html"><img src="images/PCBefore.png" onmouseover="this.src='images/PCHover.png';" onmouseout="this.src='images/PCBefore.png';"></a>
+        <div id="PChome"><a href="PC.php"><img src="images/PCBefore.png" onmouseover="this.src='images/PCHover.png';" onmouseout="this.src='images/PCBefore.png';"></a>
         </div>
         
-        <div id="PS4home"><a href="PS4.html"><img src="images/ps4Before.png" onmouseover="this.src='images/ps4Hover.png';" onmouseout="this.src='images/ps4Before.png';"></a>
+        <div id="PS4home"><a href="PS4.php"><img src="images/ps4Before.png" onmouseover="this.src='images/ps4Hover.png';" onmouseout="this.src='images/ps4Before.png';"></a>
         </div>
         
-        <div id="XBOXhome"><a href="XBOX.html"><img src="images/xboxBefore.png" onmouseover="this.src='images/xboxHover.png';" onmouseout="this.src='images/xboxBefore.png';"></a>
+        <div id="XBOXhome"><a href="XBOX.php"><img src="images/xboxBefore.png" onmouseover="this.src='images/xboxHover.png';" onmouseout="this.src='images/xboxBefore.png';"></a>
         </div>
         
-        <div id="Nintendohome"><a href="switch.html"><img src="images/switchB.png" onmouseover="this.src='images/switchHover.png';" onmouseout="this.src='images/switchB.png';"></a>
+        <div id="Nintendohome"><a href="switch.php"><img src="images/switchB.png" onmouseover="this.src='images/switchHover.png';" onmouseout="this.src='images/switchB.png';"></a>
         </div>
         
-        <div id="Mobilehome"><a href="Mobile.html"><img src="images/androidBefore.png" onmouseover="this.src='images/androidHover.png';" onmouseout="this.src='images/androidBefore.png';"></a>
+        <div id="Mobilehome"><a href="Mobile.php"><img src="images/androidBefore.png" onmouseover="this.src='images/androidHover.png';" onmouseout="this.src='images/androidBefore.png';"></a>
         
     </div>
 	
@@ -83,18 +83,18 @@
 		<div class="scrolltablewidth">
 			<table class = "tablewidth">
 				<tr>
-					<td class="lefthome"><div><a href="games/testwars.html"><img src="images/maxresdefault.jpg" alt="maxresfault"></a></div></td>
-					<td class="centerhome"><div><a href="games/testwars.html">Test Wars</a> - Tests in War</div></td>
+					<td class="lefthome"><div><a href="games/testwars.php"><img src="images/maxresdefault.jpg" alt="maxresfault"></a></div></td>
+					<td class="centerhome"><div><a href="games/testwars.php">Test Wars</a> - Tests in War</div></td>
 					<td class="righthome">Kevin Oane</td>
 				</tr>
 				<tr>
-					<td class="lefthome"><a href="games/pyloncraft.html"><img src="images/pc2.png" alt="pyloncraft" height="50" width ="50"></a></td>
-					<td class="centerhome"><a href="games/pyloncraft.html">Pyloncraft</a> - A popular successor to MineralCraft: Brood Wars, SnowStorm Inc, has finally released PylonCraft 2. Just like its predecessor, you are able to choose...</td>
+					<td class="lefthome"><a href="games/pyloncraft.php"><img src="images/pc2.png" alt="pyloncraft" height="50" width ="50"></a></td>
+					<td class="centerhome"><a href="games/pyloncraft.php">Pyloncraft</a> - A popular successor to MineralCraft: Brood Wars, SnowStorm Inc, has finally released PylonCraft 2. Just like its predecessor, you are able to choose...</td>
 					<td class="righthome">Vincent Lam</td>
 				</tr>
 				<tr>
 					<td class="lefthome"><img src="images/hp.png" alt="hp"></td>
-					<td class="centerhome"><a href="games/hearthpebble.html">HearthPebble</a> - After a long day grinding and raiding, you can return back to your inn where you can relax and enjoy some butterbeer whilst playing HearthPebble.</td>
+					<td class="centerhome"><a href="games/hearthpebble.php">HearthPebble</a> - After a long day grinding and raiding, you can return back to your inn where you can relax and enjoy some butterbeer whilst playing HearthPebble.</td>
 					<td class="righthome">Vincent Lam</td>
 				</tr>
 					<tr>
@@ -106,15 +106,15 @@
 		</div></div>
 </div>
 	<div id="footer">
-	<a href="about.html">About Us</a> | 
-	<a href="contactus.html">Contact Us</a>
+	<a href="about.php">About Us</a> | 
+	<a href="contactus.php">Contact Us</a>
 	<p>&copy; TechDirect 2017</p>
 	</div>
 	</div>
 </body>
-</html>
-<!doctype html>
-<html lang="en">
+</php>
+<!doctype php>
+<php lang="en">
 <head>
   <title>Home</title>
   <meta charset="utf-8">
@@ -125,16 +125,16 @@
 	<div id="mainhome">
 	<!-- sign -->
 	<div id="header">
-	<a href="index.html"><img src="images/logo.png" width="254" height="100" alt="TechDirect"/></a>
-	<a href="login.html"><button type="button" class="pointer" >Login</button></a>
-	<a href="signup.html"><button type="button" class="pointer">Sign Up</button></a>
+	<a href="index.php"><img src="images/logo.png" width="254" height="100" alt="TechDirect"/></a>
+	<a href="login.php"><button type="button" class="pointer" >Login</button></a>
+	<a href="signup.php"><button type="button" class="pointer">Sign Up</button></a>
 	</div>
   
 	<div id = "nav">
 		<ul>
-			<li><a href="consoles.html">Consoles</a></li>
-			<li><a href="directory.html">Directory</a></li>
-			<li><a href="mainforumpage.html">Community</a></li>
+			<li><a href="consoles.php">Consoles</a></li>
+			<li><a href="directory.php">Directory</a></li>
+			<li><a href="mainforumpage.php">Community</a></li>
 		</ul>
 	</div>
   	<div id = "introhome">
@@ -148,19 +148,19 @@
 	
 <div id="platformshome">
     
-        <div id="PChome"><a href="PC.html"><img src="images/PCBefore.png" onmouseover="this.src='images/PCHover.png';" onmouseout="this.src='images/PCBefore.png';"></a>
+        <div id="PChome"><a href="PC.php"><img src="images/PCBefore.png" onmouseover="this.src='images/PCHover.png';" onmouseout="this.src='images/PCBefore.png';"></a>
         </div>
         
-        <div id="PS4home"><a href="PS4.html"><img src="images/ps4Before.png" onmouseover="this.src='images/ps4Hover.png';" onmouseout="this.src='images/ps4Before.png';"></a>
+        <div id="PS4home"><a href="PS4.php"><img src="images/ps4Before.png" onmouseover="this.src='images/ps4Hover.png';" onmouseout="this.src='images/ps4Before.png';"></a>
         </div>
         
-        <div id="XBOXhome"><a href="XBOX.html"><img src="images/xboxBefore.png" onmouseover="this.src='images/xboxHover.png';" onmouseout="this.src='images/xboxBefore.png';"></a>
+        <div id="XBOXhome"><a href="XBOX.php"><img src="images/xboxBefore.png" onmouseover="this.src='images/xboxHover.png';" onmouseout="this.src='images/xboxBefore.png';"></a>
         </div>
         
-        <div id="Nintendohome"><a href="switch.html"><img src="images/switchB.png" onmouseover="this.src='images/switchHover.png';" onmouseout="this.src='images/switchB.png';"></a>
+        <div id="Nintendohome"><a href="switch.php"><img src="images/switchB.png" onmouseover="this.src='images/switchHover.png';" onmouseout="this.src='images/switchB.png';"></a>
         </div>
         
-        <div id="Mobilehome"><a href="Mobile.html"><img src="images/androidBefore.png" onmouseover="this.src='images/androidHover.png';" onmouseout="this.src='images/androidBefore.png';"></a>
+        <div id="Mobilehome"><a href="Mobile.php"><img src="images/androidBefore.png" onmouseover="this.src='images/androidHover.png';" onmouseout="this.src='images/androidBefore.png';"></a>
         
     </div>
 	
@@ -179,18 +179,18 @@
 		<div class="scrolltablewidth">
 			<table class = "tablewidth">
 				<tr>
-					<td class="lefthome"><div><a href="games/testwars.html"><img src="images/maxresdefault.jpg" alt="maxresfault"></a></div></td>
-					<td class="centerhome"><div><a href="games/testwars.html">Test Wars</a> - Tests in War</div></td>
+					<td class="lefthome"><div><a href="games/testwars.php"><img src="images/maxresdefault.jpg" alt="maxresfault"></a></div></td>
+					<td class="centerhome"><div><a href="games/testwars.php">Test Wars</a> - Tests in War</div></td>
 					<td class="righthome">Kevin Oane</td>
 				</tr>
 				<tr>
-					<td class="lefthome"><a href="games/pyloncraft.html"><img src="images/pc2.png" alt="pyloncraft" height="50" width ="50"></a></td>
-					<td class="centerhome"><a href="games/pyloncraft.html">Pyloncraft</a> - A popular successor to MineralCraft: Brood Wars, SnowStorm Inc, has finally released PylonCraft 2. Just like its predecessor, you are able to choose...</td>
+					<td class="lefthome"><a href="games/pyloncraft.php"><img src="images/pc2.png" alt="pyloncraft" height="50" width ="50"></a></td>
+					<td class="centerhome"><a href="games/pyloncraft.php">Pyloncraft</a> - A popular successor to MineralCraft: Brood Wars, SnowStorm Inc, has finally released PylonCraft 2. Just like its predecessor, you are able to choose...</td>
 					<td class="righthome">Vincent Lam</td>
 				</tr>
 				<tr>
 					<td class="lefthome"><img src="images/hp.png" alt="hp"></td>
-					<td class="centerhome"><a href="games/hearthpebble.html">HearthPebble</a> - After a long day grinding and raiding, you can return back to your inn where you can relax and enjoy some butterbeer whilst playing HearthPebble.</td>
+					<td class="centerhome"><a href="games/hearthpebble.php">HearthPebble</a> - After a long day grinding and raiding, you can return back to your inn where you can relax and enjoy some butterbeer whilst playing HearthPebble.</td>
 					<td class="righthome">Vincent Lam</td>
 				</tr>
 					<tr>
@@ -202,10 +202,10 @@
 		</div></div>
 </div>
 	<div id="footer">
-	<a href="about.html">About Us</a> | 
-	<a href="contactus.html">Contact Us</a>
+	<a href="about.php">About Us</a> | 
+	<a href="contactus.php">Contact Us</a>
 	<p>&copy; TechDirect 2017</p>
 	</div>
 	</div>
 </body>
-</html>
+</php>

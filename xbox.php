@@ -42,16 +42,16 @@
 	<div class="dropdown">
 		<button class="dropbtn">Consoles</button>
 		<div class="dropdown-content">
-			<a href="pc.html" id="pcdropdown">PC</a>
-			<a href="xbox.html" id="xboxdropdown">Xbox One</a>
-			<a href="ps4.html" id="psdropdown">PS4</a>
-			<a href="switch.html" id="switchdropdown">Switch</a>
-			<a href="mobile.html" id="mobiledropdown">Mobile</a>
+			<a href="pc.php" id="pcdropdown">PC</a>
+			<a href="xbox.php" id="xboxdropdown">Xbox One</a>
+			<a href="ps4.php" id="psdropdown">PS4</a>
+			<a href="switch.php" id="switchdropdown">Switch</a>
+			<a href="mobile.php" id="mobiledropdown">Mobile</a>
 		</div>
 	</div>
 	</li>
-	<li><a href="directory.html">Directory</a></li>
-	<li><a href="mainforumpage.html">Community</a></li>
+	<li><a href="directory.php">Directory</a></li>
+	<li><a href="mainforumpage.php">Community</a></li>
 	</ul>
 </div>
 	
@@ -84,7 +84,7 @@
 
 <div id="releasexbox">
 
-<a href="games/benbutgame.html"><img src="images/bjbg1.jpg" height="100" width="100"><h3>Benjamin Button: The Game</h3></a>
+<a href="games/benbutgame.php"><img src="images/bjbg1.jpg" height="100" width="100"><h3>Benjamin Button: The Game</h3></a>
 <p style="color:black;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
@@ -93,7 +93,7 @@
 	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 <br><hr><br>
 
-<a href="game.html"><img src="images/game.html"><h3>Game 2</h3></a>
+<a href="game.php"><img src="images/game.php"><h3>Game 2</h3></a>
 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
@@ -101,7 +101,7 @@
 	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 <br><hr><br>
-<a href="game.html"><img src="images/game.html"><h3>Game 3</h3></a>
+<a href="game.php"><img src="images/game.php"><h3>Game 3</h3></a>
 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
@@ -116,7 +116,7 @@
 </div>
 
 <div id="reviewxbox">
-<a href="game.html"><img src="images/game.html"><h3>Game 1</h3></a>
+<a href="game.php"><img src="images/game.php"><h3>Game 1</h3></a>
 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
@@ -125,7 +125,7 @@
 	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 <br><hr><br>
 
-<a href="game.html"><img src="images/game.html"><h3>Game 2</h3></a>
+<a href="game.php"><img src="images/game.php"><h3>Game 2</h3></a>
 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
@@ -133,7 +133,7 @@
 	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 <br><hr><br>
-<a href="game.html"><img src="images/game.html"><h3>Game 3</h3></a>
+<a href="game.php"><img src="images/game.php"><h3>Game 3</h3></a>
 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
@@ -144,8 +144,8 @@
 </div>
 
 <div id="footer">
-<a href="about.html">About Us</a> | 
-<a href="contactus.html">Contact Us</a>
+<a href="about.php">About Us</a> | 
+<a href="contactus.php">Contact Us</a>
 <p>&copy; TechDirect 2017</p>
 </div>
 </div>

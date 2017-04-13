@@ -42,16 +42,16 @@
 	<div class="dropdown">
 		<button class="dropbtn">Consoles</button>
 		<div class="dropdown-content">
-			<a href="pc.html" id="pcdropdown" style="a:hover {background-color: red;">PC</a>
-			<a href="xbox.html" id="xboxdropdown">Xbox One</a>
-			<a href="ps4.html" id="psdropdown">PS4</a>
-			<a href="switch.html" id="switchdropdown">Switch</a>
-			<a href="mobile.html" id="mobiledropdown">Mobile</a>
+			<a href="pc.php" id="pcdropdown" style="a:hover {background-color: red;">PC</a>
+			<a href="xbox.php" id="xboxdropdown">Xbox One</a>
+			<a href="ps4.php" id="psdropdown">PS4</a>
+			<a href="switch.php" id="switchdropdown">Switch</a>
+			<a href="mobile.php" id="mobiledropdown">Mobile</a>
 		</div>
 	</div>
 	</li>
-	<li><a href="directory.html">Directory</a></li>
-	<li><a href="mainforumpage.html">Community</a></li>
+	<li><a href="directory.php">Directory</a></li>
+	<li><a href="mainforumpage.php">Community</a></li>
 	</ul>
 </div>
 	
@@ -84,15 +84,15 @@
 
 <div id="releasemobile">
 
-<a href="games/testwars.html"><img src="images/maxresdefault.jpg" height="100" width="200"><h3 style="color: #666699;">Test Wars</h3></a>
+<a href="games/testwars.php"><img src="images/maxresdefault.jpg" height="100" width="200"><h3 style="color: #666699;">Test Wars</h3></a>
 <p style="color: black;">Test Wars makes both a mockery of both the Star Wars and finals, the latter all students will hate to loathe. The game evokes nostalgia and doubt, but I find it to be a handy study tool. It happened to be a computer-science game, so it did help me to relax. HighQ Games announced that will release more subject disciplines within 5 years, so watch out. </p>
 <br><hr><br>
 
-<a href="games/hearthpebble.html"><img src="images/game.html"><h3 style="color: #666699;">HearthPebble</h3></a>
+<a href="games/hearthpebble.php"><img src="images/game.php"><h3 style="color: #666699;">HearthPebble</h3></a>
 <p style="color: black;">After a long day grinding and raiding, you can return back to your inn where you can relax and enjoy some butterbeer whilst playing HearthPebble. HearthPebble is a free card based strategy game developed and produced by SnowStorm Inc.  Using the lore from Planet of Warcraft, cards are pitched against each other in battle.  Similar to collecting cards, you have to buy cards and construct your own decks.  You start off with some basic cards that is available to everyone joining HearthPebble.  As you play, you’re able to buy more packs using gold, an in game currency.  You can also use real world money to purchase extra packs.  Every pack rewards you with five cards.  One of which will be at least a rare.  Cards have different levels of rarity - common, rare, epic, and legendary.  </p>
 <br><hr><br>
 
-<a href="game.html"><img src="images/game.html"><h3 style="color: #666699;">Game 3</h3></a>
+<a href="game.php"><img src="images/game.php"><h3 style="color: #666699;">Game 3</h3></a>
 <p style="color: black;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
@@ -107,7 +107,7 @@
 </div>
 
 <div id="reviewmobile">
-<a href="game.html"><img src="images/game.html"><h3 style="color: #666699;">Game 1</h3></a>
+<a href="game.php"><img src="images/game.php"><h3 style="color: #666699;">Game 1</h3></a>
 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
@@ -116,7 +116,7 @@
 	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 <br><hr><br>
 
-<a href="game.html"><img src="images/game.html"><h3 style="color: #666699;">Game 2</h3></a>
+<a href="game.php"><img src="images/game.php"><h3 style="color: #666699;">Game 2</h3></a>
 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
@@ -124,7 +124,7 @@
 	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 <br><hr><br>
-<a href="game.html"><img src="images/game.html"><h3 style="color: #666699;">Game 3</h3></a>
+<a href="game.php"><img src="images/game.php"><h3 style="color: #666699;">Game 3</h3></a>
 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
@@ -135,8 +135,8 @@
 </div>
 
 <div id="footer">
-<a href="about.html">About Us</a> | 
-<a href="contactus.html">Contact Us</a>
+<a href="about.php">About Us</a> | 
+<a href="contactus.php">Contact Us</a>
 <p>&copy; TechDirect 2017</p>
 </div>
 </div>

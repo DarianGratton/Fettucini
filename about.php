@@ -43,16 +43,16 @@
 	<div class="dropdown">
 		<button class="dropbtn">Consoles</button>
 		<div class="dropdown-content">
-			<a href="pc.html" id="pcdropdown">PC</a>
-			<a href="xbox.html" id="xboxdropdown">Xbox One</a>
-			<a href="ps4.html" id="psdropdown">PS4</a>
-			<a href="switch.html" id="switchdropdown">Switch</a>
-			<a href="mobile.html" id="mobiledropdown">Mobile</a>
+			<a href="pc.php" id="pcdropdown">PC</a>
+			<a href="xbox.php" id="xboxdropdown">Xbox One</a>
+			<a href="ps4.php" id="psdropdown">PS4</a>
+			<a href="switch.php" id="switchdropdown">Switch</a>
+			<a href="mobile.php" id="mobiledropdown">Mobile</a>
 		</div>
 	</div>
 	</li>
-	<li><a href="directory.html">Directory</a></li>
-	<li><a href="mainforumpage.html">Community</a></li>
+	<li><a href="directory.php">Directory</a></li>
+	<li><a href="mainforumpage.php">Community</a></li>
 	</ul>
 </div>
 			<div class="faqs">
@@ -69,7 +69,7 @@
 					<p class="faq_question">Who are we</p>
 					<div class="faq_answer">
 						<p>We're BCIT students in the first term of the CST program</p>
-						<p>Yes, that program. <a href="bbsocial.html">Meet the team!</a></p>
+						<p>Yes, that program. <a href="bbsocial.php">Meet the team!</a></p>
 					</div>
 				</div>
 				<div class="faq_item">
@@ -116,12 +116,12 @@
 	
 
 	<div id="footer">
-	<a href="about.html">About Us</a> | 
-	<a href="contactus.html">Contact Us</a>
+	<a href="about.php">About Us</a> | 
+	<a href="contactus.php">Contact Us</a>
 	<p>&copy; TechDirect 2017</p>
 	</div>
 </div>
 </body>
-</html>
+</php>
 <!--NOTES: 1. Page responsive, but information goes way further left before nav list adjusts. Can't adjust nav bar for some reason.-->
 <!--2. Fixing with div containers cancels out responsive design.-->

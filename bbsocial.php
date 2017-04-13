@@ -41,16 +41,16 @@
 	<div class="dropdown">
 		<button class="dropbtn">Consoles</button>
 		<div class="dropdown-content">
-			<a href="../pc.html" id="pcdropdown">PC</a>
-			<a href="../xbox.html" id="xboxdropdown">Xbox One</a>
-			<a href="../ps4.html" id="psdropdown">PS4</a>
-			<a href="../switch.html" id="switchdropdown">Switch</a>
-			<a href="../mobile.html" id="mobiledropdown">Mobile</a>
+			<a href="../pc.php" id="pcdropdown">PC</a>
+			<a href="../xbox.php" id="xboxdropdown">Xbox One</a>
+			<a href="../ps4.php" id="psdropdown">PS4</a>
+			<a href="../switch.php" id="switchdropdown">Switch</a>
+			<a href="../mobile.php" id="mobiledropdown">Mobile</a>
 		</div>
 	</div>
 	</li>
-	<li><a href="directory.html">Directory</a></li>
-	<li><a href="mainforumpage.html">Community</a></li>
+	<li><a href="directory.php">Directory</a></li>
+	<li><a href="mainforumpage.php">Community</a></li>
 	</ul>
 </div>
 
@@ -127,7 +127,7 @@
 					var source = $(this).data('source');
 					$('.title').text(title);
 					$('.desc').text(desc);
-					$('.source').html(source);
+					$('.source').php(source);
 					$('.imagepreview').attr('src', $(this).find('img').attr('src'));
 					$('#imagemodal').modal('show');
 				});
@@ -135,12 +135,12 @@
 	</script>
 
 	<div id="footer">
-	<a href="about.html">About Us</a> | 
-	<a href="contactus.html">Contact Us</a>
+	<a href="about.php">About Us</a> | 
+	<a href="contactus.php">Contact Us</a>
 	<p>&copy; TechDirect 2017</p>
 	</div>
 </div>
 </body>
-</html>
+</php>
 <!--NOTES: 1. Page responsive, but information goes way further left before nav list adjusts. Can't adjust nav bar for some reason.-->
 <!--2. Fixing with div containers cancels out responsive design.-->

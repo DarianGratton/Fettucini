@@ -1,0 +1,239 @@
+/******public css******/
+/***for header, footer, body, nav***/
+body a:hover{
+	color:black;
+}
+
+p {
+	color: white;
+}
+body a{
+	text-decoration: none;
+	color: white;
+	font-size: large;
+}
+body h1{
+	font-family: Part two;
+	src: url (fonts/Part_Two.ttf);
+}
+body h2 {
+	font-family: Part two;
+	src: url (fonts/Part_Two.ttf);
+	color: #2FCC71;	
+}
+#header {
+	width:100%;
+	margin-left: auto;
+	margin-right: auto;
+	position:relative;
+}
+h3 {
+	font-family: Part two;
+	src: url (fonts/Part_Two.ttf);
+	color:#2FCC71;
+	font-size:1.5em;
+	
+}
+body {
+	background-color: black;
+	background-image: url("../images/gaming-website-background2.jpg");
+	background-repeat:no-repeat;
+	background-size:130%;
+	background-position:top;
+	margin:0px;
+}
+body p{
+	font-family: square block;
+	src: url (square_block.ttf);
+	font-size: 14px;
+}
+
+#wrapper {
+	width:800px;
+	margin-left: auto;
+	margin-right: auto;
+	float: center;
+}
+
+#header button{
+	float:right;
+	text-align: right;
+}
+	
+#nav {
+	position:relative;
+	width:100%;
+	height:15%;	
+}
+#nav img{
+	text-align: center;
+}
+#nav ul {
+	list-style: none;
+	background-color: #6D8383;
+	font-family: Chosence;
+	src: url (fonts/Chosence_Regular_Italic.otf)
+}
+#nav li {
+	display: inline;
+	padding-right: 10px;
+	font-family: Chosence;
+	src: url (fonts/Chosence_Regular_Italic.otf);
+	font-size:2em;
+}
+#navsign{
+	border: 1px solid black;
+	border-radius: 15px;
+	width: 8%;
+	height: 4%;
+	background-color:#6D8383;
+	text-align:center;
+	float:right;
+	margin:1%;
+}
+#navsign p{
+	color:white;
+	font-size:1.0em;
+}
+
+#footer {
+	margin-left:auto;
+	margin-right:auto;
+	text-align: center;
+	background-color:#2FCC71;
+	position:relative;
+	margin-top: 3%;
+	width:100%;
+	clear:both;
+}
+#footer p{
+	font-size:1em;
+}
+#footer a{
+	font-family: Chosence;
+	src: url (fonts/Chosence_Regular_Italic.otf)
+}
+
+/*----------------------
+body and fonts css
+----------------------*/
+h1 {
+	color: #2FCC71;	
+	font-family: Part two;
+	src: url (fonts/Part_Two.ttf);
+}
+body p{
+	font-family: square block;
+	src: url (square_block.ttf);
+	font-size: 14px;
+}
+body a:hover{
+	color:black;
+}
+body a{
+	text-decoration: none;
+	font-size: large;
+}
+#mainhome {
+	width:60%;
+	margin-left: auto;
+	margin-right: auto;
+	position:relative;
+	padding-top:3%;
+}
+#introhome { 
+	text-align: center;
+	color: #CDCED0;
+	margin-left:auto;
+	margin-right:auto;
+}
+/*----------------------
+modal
+----------------------*/
+.modal-dialog {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 50%;
+  margin: 0;
+}
+.modal-content, .modal-body {
+  height: 100%;
+  overflow: hidden;
+}
+.img-description {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 15px;
+  background-color: #fff;
+  border-radius: 6px;
+}
+.title {
+  font-weight: bold;
+  font-size: 1.2em;
+}
+.img {
+  height: 100%;
+}
+.imagepreview {
+  max-height: 100%;
+  display: inline-block;
+}
+/*----------------------
+dropdown
+----------------------*/
+
+
+.faqs {
+    font-family: sans-serif;
+    border-left: 2px solid #6CA88E;
+    border-right: 2px solid #6CA88E;
+    border-radius: 4px;
+}
+.faqs:last-child {
+    border-bottom: 2px solid #6CA88E;
+}
+.faq_item {
+    background-color: #93e5c2;
+    height: 30px;
+    border-top: 2px solid #6CA88E;
+}
+.active {
+    background-color: #83ccac;
+    height: auto;
+}
+.faq_question {
+    font-weight: bold;
+    cursor: pointer;
+    position: relative;
+    margin: 0 20px;
+    line-height: 30px;
+    color: #363A17;
+}
+.faq_question:after {
+    content: '\25BC';
+    position: absolute;
+    right: 0;
+}
+.active .faq_question:after {
+    content: '\25B2';
+}
+.faq_answer {
+    margin: 0 20px;
+    padding-bottom: 20px;
+    opacity: 0;
+    height: 0px;
+    transition: opacity 0s linear;
+}
+.faq_answer p {
+    margin: 10px 0 0 0;
+}
+.active .faq_answer {
+    opacity: 1;
+    height: auto;
+    transition: opacity .5s linear;    
+}

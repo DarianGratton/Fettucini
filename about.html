@@ -4,8 +4,9 @@
   <title>About</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style/base.css">
+  <link rel="stylesheet" href="style/about.css">
 </head>
+
 <body>
 <div id="mainhome">
 
@@ -15,110 +16,80 @@
 	<a href="login.html"><button type="button" class="pointer" >Login</button></a>
 	<a href="signup.html"><button type="button" class="pointer">Sign Up</button></a>
 	</div>
-<div id="nav">
-	<ul>
-	<li>
-	<div class="dropdown">
-		<button class="dropbtn">Consoles</button>
-		<div class="dropdown-content">
-			<a href="pc.html" id="pcdropdown">PC</a>
-			<a href="xbox.html" id="xboxdropdown">Xbox One</a>
-			<a href="ps4.html" id="psdropdown">PS4</a>
-			<a href="switch.html" id="switchdropdown">Switch</a>
-			<a href="mobile.html" id="mobiledropdown">Mobile</a>
-		</div>
+  
+	<div id = "nav">
+		<ul>
+			<li><a href="xbox.html">Consoles</a></li>
+			<li><a href="directory.html">Directory</a></li>
+			<li><a href="mainforumpage.html">Community</a></li>
+		</ul>
 	</div>
-	</li>
-	<li><a href="directory.html">Directory</a></li>
-	<li><a href="mainforumpage.html">Community</a></li>
-	</ul>
-</div>
-	<div id="boxaboutus">
-		<div class="boxaboutus">			
+			<div class="faqs">
+				<div class="faq_item">
+					<p class="faq_question">What is TechDirect?</p>
+					<div class="faq_answer">
+						<p>TechDirect</p>
+						<p>was intended to be a tech-site, but given
+						our varying interests in technology, we settled for games,
+						our common ground. </p>
+					</div>
+				</div>
+				<div class="faq_item">
+					<p class="faq_question">Who are we</p>
+					<div class="faq_answer">
+						<p>We're BCIT students in the first term of the CST program</p>
+						<p>Yes, that program. <a href="bbsocial.html">Meet the team!</a></p>
+					</div>
+				</div>
+				<div class="faq_item">
+					<p class="faq_question">Mission</p>
+					<div class="faq_answer">
+						<p>We are TechDirect</p>
+						<p>directing you the latest and greatest.  We are a group of CST students dedicated to bringing you the latest content there is out there.  We aim to provide you with the most up to date information.  Whether it be from far reaches 
+						of Japan or from our neighbour the USA, we hope to bring you the latest news.</p>
+					</div>
+				</div>
+				<div class="faq_item">
+					<p class="faq_question">Vision</p>
+					<div class="faq_answer">
+						<p>Mission</p>
+						<p>Right now, TechDirect is a site for gamers, collaborators and visionaries alike</p>
+						<p>Vision</p>
+						<p>TechDirect aims to be the unparalled 
+						review/forum site leader established, to-be-established or conceptualized games .</p>
+					</div>
+				</div>
+				<div class="faq_item">
+					<p class="faq_question">To-be-established or conceptualized games?</p>
+					<div class="faq_answer">
+						<p>Aside from a game review website, TechDirect is an intercollaborational gateway for users sharing ideas,
+						expertise!</p>
+						<p></p>
+					</div>
+				</div>
+				<div class="faq_item">
+					<p class="faq_question">Why are the games so few???</p>
+					<div class="faq_answer">
+						<p>Apologies!</p>
+						<p>The site is in its early stages and has very limited functionality, but we're working to increase user accessibility and add more games. One of which is for users to post games. </p>
+					</div>
+				</div>
+			</div>	
+			  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+			<script>
+			$('.faqs').on('click', '.faq_item', function () {
+				$(this).toggleClass('active');
+			});
+			</script>
+		
 	
-		<div id="mainaboutus">
-			<h2>ABOUT US</h2>
 
-			<h3><!--img src="images/h2.gif" width="20" height="20" alt="h2"-->Who We Are</h3>
-				<a href="#"><div class="odd"><img src="images/rangers.jpg" width="292" height="200" alt="Bertram"/></a></div>
-				<p>We are TechDirect, directing you the latest and greatest.  We are a group of CST students dedicated to bringing you the latest content there is out there.  We aim to provide you with the most up to date information.  Wheter it be from far reaches of Japan or from our neighbour the USA, we hope to bring you the latest news.
-				</p>
-				
-				<!--<div class="hr"><img src="images/hr.gif" alt="hr"></div>-->
-			
-			<h3><!--img src="images/h2.gif" width="20" height="20" alt="h2"-->Bertram</h3>
-				<a href="#"><div class="odd"><img src="images/rangers.jpg" width="292" height="200" alt="Bertram"/></a></div>
-				<p>Bertram is the CST Demigod of Set B.  The Demigod that has gracisouly showered us with his presence.  He will bravely tell us the plans of his battle plan.  But as we charge into battle, we will discover that he is nowhere to be found.  He is who we look for at the first light on the fifth day.  Despite this flaw, he will appear exactly when is needed and not a minute before.  
-				</p>
-				
-				<!--<div class="hr"><img src="images/hr.gif" alt="hr"></div>-->
-				
-			<h3><!--img src="images/h2.gif" alt="h2"-->Darien</h3>	
-				<div class="even"><a href="#"><img src="images/darien.jpg" width="400" height="200" alt="Darien"/></a></div>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris fermentum efficitur dignissim. 
-				Integer posuere nibh in maximus pharetra. Vestibulum egestas convallis ligula, in sollicitudin lacus convallis at. 
-				Morbi volutpat placerat ipsum, quis faucibus eros ullamcorper quis. Curabitur non consequat ligula, eu ornare elit. 
-				Etiam bibendum erat ex. Ut malesuada elit at rhoncus auctor. Proin fermentum purus et tempor varius. 
-				Maecenas posuere in sem id rutrum. Suspendisse eu libero turpis.Vestibulum id diam vitae neque porttitor blandit in 
-				ut lorem. Suspendisse molestie mollis purus, ut consectetur tellus sodales in. Fusce fermentum velit velit, convallis 
-				bibendum ligula vehicula eget. Suspendisse gravida, nibh ac aliquet ornare, mauris nisi ullamcorper ex, eget sagittis 
-				risus odio quis elit. 
-				</p>
-				
-				<!--<div class="hr"><img src="images/hr.gif" alt="hr"></div>-->
-				
-			<h3><!--img src="images/h2.gif" width="20" height="20" alt="h2"-->Kevs</h3>
-			  	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris fermentum efficitur dignissim. 
-				Integer posuere nibh in maximus pharetra. Vestibulum egestas convallis ligula, in sollicitudin lacus convallis at. 
-				Morbi volutpat placerat ipsum, quis faucibus eros ullamcorper quis. Curabitur non consequat ligula, eu ornare elit. 
-				Etiam bibendum erat ex. Ut malesuada elit at rhoncus auctor.</p> 
-				<div class="even"><a href="#"><img src="images/lawluffy.jpg" width="100" height="100" alt="Kev"/></a></div>
-				<p>Proin fermentum purus et tempor varius. 
-				Maecenas posuere in sem id rutrum. Suspendisse eu libero turpis.Vestibulum id diam vitae neque porttitor blandit in 
-				ut lorem. Suspendisse molestie mollis purus, ut consectetur tellus sodales in. Fusce fermentum velit velit, convallis 
-				bibendum ligula vehicula eget. Suspendisse gravida, nibh ac aliquet ornare, mauris nisi ullamcorper ex, eget sagittis risus odio quis elit.
-				</p>
-						
-				<!--<div class="hr"><img src="images/hr.gif" alt="hr"></div>-->
-			<br>	
-			<h3><!--img src="images/h2.gif" width="20" height="20" alt="h2"-->Xin</h3>
-				<div class="odd"><a href="#"><img src="images/1.JPG" width="110" height="125" alt="Xin"/></a></div>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris fermentum efficitur dignissim. 
-				Integer posuere nibh in maximus pharetra. Vestibulum egestas convallis ligula, in sollicitudin lacus convallis at. 
-				Morbi volutpat placerat ipsum, quis faucibus eros ullamcorper quis. Curabitur non consequat ligula, eu ornare elit. 
-				Etiam bibendum erat ex. Ut malesuada elit at rhoncus auctor. Proin fermentum purus et tempor varius. 
-				Maecenas posuere in sem id rutrum. Suspendisse eu libero turpis.Vestibulum id diam vitae neque porttitor blandit in 
-				ut lorem. Suspendisse molestie mollis purus, ut consectetur tellus sodales in. Fusce fermentum velit velit, convallis 
-				bibendum ligula vehicula eget. Suspendisse gravida, nibh ac aliquet ornare, mauris nisi ullamcorper ex, eget sagittis 
-				risus odio quis elit.
-				</p>
-				
-				<!--<div class="hr"><img src="images/hr.gif" alt="hr"></div>-->	
-				
-			<h3><!--img src="images/h2.gif" width="20" height="20" alt="h2"-->Vince-L</h3>
-				
-				<div class="odd"><a href="#"><img src="images/shredder.gif" width="95" height="150" alt="Vincent"/></a></div>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris fermentum efficitur dignissim. 
-				Integer posuere nibh in maximus pharetra. Vestibulum egestas convallis ligula, in sollicitudin lacus convallis at. 
-				Morbi volutpat placerat ipsum, quis faucibus eros ullamcorper quis. 
-				Curabitur non consequat ligula, eu ornare elit. 
-				Etiam bibendum erat ex. Ut malesuada elit at rhoncus auctor. Proin fermentum purus et tempor varius. 
-				Maecenas posuere in sem id rutrum. Suspendisse eu libero turpis.Vestibulum id diam vitae neque porttitor blandit in 
-				ut lorem. Suspendisse molestie mollis purus, ut consectetur tellus sodales in. Fusce fermentum velit velit, convallis 
-				bibendum ligula vehicula eget. Suspendisse gravida, nibh ac aliquet ornare, mauris nisi ullamcorper ex, eget sagittis 
-				risus odio quis elit.
-				</p>
-				<!--<div class="hr"><img src="images/hr.gif" alt="hr"></div>-->	
-	
-		</div>
-		</div>
-</div>
 	<div id="footer">
 	<a href="about.html">About Us</a> | 
 	<a href="contactus.html">Contact Us</a>
 	<p>&copy; TechDirect 2017</p>
 	</div>
-	</div>
+</div>
 </body>
 </html>
 <!--NOTES: 1. Page responsive, but information goes way further left before nav list adjusts. Can't adjust nav bar for some reason.-->

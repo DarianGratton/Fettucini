@@ -757,7 +757,7 @@ margin-right:0px;
 .dropdown-content #pcdropdown:hover {background-color: gray}
 .dropdown-content #psdropdown:hover {background-color: #006FC6}
 .dropdown-content #xboxdropdown:hover {background-color: #2FCC71}
-.dropdown-content #mobiledropdown:hover {background-color: yellow}
+.dropdown-content #mobiledropdown:hover {background-color: #666699}
 .dropdown-content #switchdropdown:hover {background-color: #FF0000}
 
 /* Show the dropdown menu on hover */

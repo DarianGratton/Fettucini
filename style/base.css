@@ -711,6 +711,10 @@ margin-right:0px;
 	color:#CDCED0;
 	font-size:1.5em;
 }
+
+#pop {
+	color:black;
+}
 /* Style The Dropdown Button */
 .dropbtn {
     background-color: #6D8383;
@@ -839,7 +843,7 @@ gamepage css
 		width: 400px;
 		text-align: center;
 		display: block;
-		margin: auto;
+		margin: 0 auto;
 		margin-bottom: 15px;
 	}
 	

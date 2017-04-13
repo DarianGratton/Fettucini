@@ -1,3 +1,16 @@
+<?php
+	session_start();
+?>
+<?php
+	include 'functions.php';
+	require_once('config.php');
+	session_start();
+
+	// Connect to server and select database.
+	($GLOBALS["___mysqli_ston"] = mysqli_connect(DB_HOST,  DB_USER,  DB_PASSWORD))or die("cannot connect, error: ".((is_object($GLOBALS["___mysqli_ston"])) ? mysqli_error($GLOBALS["___mysqli_ston"]) : (($___mysqli_res = mysqli_connect_error()) ? $___mysqli_res : false)));
+	((bool)mysqli_query($GLOBALS["___mysqli_ston"], "USE " . constant('DB_DATABASE')))or die("cannot select DB, error: ".((is_object($GLOBALS["___mysqli_ston"])) ? mysqli_error($GLOBALS["___mysqli_ston"]) : (($___mysqli_res = mysqli_connect_error()) ? $___mysqli_res : false)));
+	$tbl_name="topic"; // Table name
+?>
 <!doctype html>
 <html lang="en">
 <head>
@@ -47,14 +60,15 @@ $(document).ready(function(){
 <div id="mainhome">
 
 	<div id="header">
-	<a href="../index.html"><img src="../images/logo.png" width="254" height="100" alt="TechDirect"/></a>
-
-	<div id="navsign">
-	<a href="../login.html"><p>Log In</p></a>
-	</div>
-	<div id="navsign">
-	<a href="../signup.html"><p>Sign Up</p></a>
-	</div>
+	<a href="index.php"><img src="images/logo.png" width="254" height="100" alt="TechDirect"/></a>
+<?php
+		if (isLoggedIn()){
+			echo '<a href="logout.php"><button type="button" class="pointer">Logout</button></a>';
+			echo '<div id="welcome">',"welcome",'<br>',$_SESSION['SESS_FIRST_NAME'],'</div>';	
+		} else {
+			echo '<a href="signup.php"><button type="button" class="pointer">Sign Up/Login</button></a>';
+		}
+?>
 	</div>
 
 <div id="nav">
